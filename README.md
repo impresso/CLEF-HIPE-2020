@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+## About
+ 
+Shared task organised in the context of the [impresso](http://impresso-project.ch) project, and accepted as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab.  Its goal is to carry out a named entity processing evaluation campaign on diachronic newspapers material in French, German and English.
 
-You can use the [editor on GitHub](https://github.com/impresso/CLEF-HIPE-2020/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Evaluation tasks
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Task 1**: Named Entity Recognition and Classification (NERC)
 
-### Markdown
+- **Subtask 1.1** *NERC Essentials*: this task includes the recognition and classification of high-
+level entity types (Person, Organisation, Location, Product)
+- **Subtask 1.2** *NERC fine-grained*: includes ‘NERC Essentials’, plus the detection and
+classification at sub-type level and the detection of NE components (e.g. function, title, name)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Task 2**: Named Entity Linking (EL).
 
-```markdown
-Syntax highlighted code block
+- **Subtask 2.1** *Entity coreference resolution*: given a set of mentions within and across
+documents, the objective is to cluster coreferent mentions and give them a cross-document
+identifier.
+- **Subtask 2.2** *Entity Linking*: this task includes the linking of named entity mentions to a
+unique referent in a knowledge base (KB) or to a NIL node if the mention does not have a
+referent in the KB. The chosen KB is [Wikidata](https://wikidata.org).
 
-# Header 1
-## Header 2
-### Header 3
+## Important dates (tentative)
 
-- Bulleted
-- List
+- end of November 2019: release of sample data for both tasks (NERC and EL)
+- end of January 2020: release of full data for both tasks
+- early May 2020: test/evaluation phase (one week)
+- June: workshop organisation and submission of papers
+- 22-25 Sept 2020: Conference in Greece
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Organizers
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/impresso/CLEF-HIPE-2020/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Maud Ehrmann (EPFL)
+- Matteo Romanello (EPFL)
+- Simon Clematide (University of Zurich)
