@@ -1,6 +1,10 @@
 ## About
- 
-Shared task organised in the context of the [impresso](http://impresso-project.ch) project, and accepted as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab.  Its goal is to carry out a named entity processing evaluation campaign on diachronic newspapers material in French, German and English.
+
+HIPE is a shared task organised in the context of the [impresso](http://impresso-project.ch) project, and accepted as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab.  Its goal is to carry out a named entity processing evaluation campaign on diachronic newspapers material in French, German and English.
+
+## Corpus
+
+The corpus will be composed of French, German and English newspaper articles sampled among eight Swiss, Luxembourgish and British/American (still TBD) historical newspapers on a diachronic basis. It will be publicly released as part of the shared task.
 
 ## Evaluation tasks
 
@@ -26,11 +30,11 @@ referent in the KB. The chosen KB is [Wikidata](https://wikidata.org).
 - end of January 2020: release of full data for both tasks
 - early May 2020: test/evaluation phase (one week)
 - June: workshop organisation and submission of papers
-- 22-25 Sept 2020: Conference in Greece
+- 22-25 Sept 2020: [CLEF 2020 Conference in Greece](https://clef2020.clef-initiative.eu/)
 
 
 ## Organizers
 
-- Maud Ehrmann (EPFL)
-- Matteo Romanello (EPFL)
-- Simon Clematide (University of Zurich)
+- [Maud Ehrmann](https://impresso-project.ch/consortium/people/#maud-ehrmann) (EPFL)
+- [Matteo Romanello](https://impresso-project.ch/consortium/people/#matteo-romanello) (EPFL)
+- [Simon Clematide](https://impresso-project.ch/consortium/people/#simon-clematide) (University of Zurich)
