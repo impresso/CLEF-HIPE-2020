@@ -114,17 +114,10 @@ Lab preparation and execution activities are overseen by an advisory board, comp
 - [**Dr. Sophie Rosset**](https://perso.limsi.fr/rosset/EN/index.php), Senior Researcher at LIMSI-CNRS (French National Centre for Scientific Research), Paris-Orsay, France.
 - [**Prof. David Smith**](https://www.khoury.northeastern.edu/people/david-smith/), Professor at Khoury College of Computer Sciences, Northeastern University, Boston, US.
 
- <div class="row">
-  <div class="column">
-    <img src=img/clef-association-logo.png" width="150">
-  </div>
-  <div class="column">
-    <img src=img/clef2020_logo.png" width="150">
-  </div>
-  <div class="column">
-    <img src=img/impresso-logo.v4.pdf" width="150">
-  </div>
-</div> 
+
+
+<img src=img/clef-association-logo.png" width="150" /> <img src=img/clef2020_logo.png" width="150" /> <img src=img/impresso-logo.v4.pdf" width="150">
+
 
 
 
