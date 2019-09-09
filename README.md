@@ -116,7 +116,7 @@ Lab preparation and execution activities are overseen by an advisory board, comp
 
 
 
-<img src=img/clef-association-logo.png" width="150" /> <img src=img/clef2020_logo.png" width="150" /> <img src=img/impresso-logo.v4.pdf" width="150">
+<img src=img/clef-association-logo.png" width="150"/> <img src=img/clef2020_logo.png" width="150"/> <img src=img/impresso-logo.v4.pdf" width="150"/>
 
 
 
