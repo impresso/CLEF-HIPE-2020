@@ -118,14 +118,13 @@ Lab preparation and execution activities are overseen by an advisory board, comp
 
 ### Contact
 
-- Twitter: HIPE updates will be posted from [@ImpressoProject](https://twitter.com/ImpressoProject/) account
 - Website: We will publish all relevant information on this website
 - Email & mailing list: (soon)
+- Twitter: HIPE updates will be posted from [@ImpressoProject](https://twitter.com/ImpressoProject/) account
 
 <p float="center">
-<img src="img/clef-association-logo.png" width="180" /> 
-<img src="img/clef2020_logo.png" width="180" /> 
-<img src="impresso-logo-h-RGB-inverted-4x.png" width="150"/>
+<img src="img/clef-association-logo.png" width="200" /> 
+<img src="img/clef2020_logo.png" width="200" /> 
 </p>
 
 
