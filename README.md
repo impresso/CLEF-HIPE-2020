@@ -6,7 +6,7 @@ _(site under construction)_
 
 ### Tasks
 
-**Task 1: Named Entity Recognition and Classification (NERC)**
+##### Task 1: Named Entity Recognition and Classification (NERC)
 
 - **Subtask 1.1 - NERC Essentials**: this task includes the recognition and classification of high-
   level entity types: Person, Organisation, Location and Product.
@@ -14,7 +14,7 @@ _(site under construction)_
 - **Subtask 1.2 - NERC fine-grained**: includes ‘NERC Essentials’, plus the detection and
   classification at sub-type level (e.g. Person-individual vs. Person-collective) and the detection of NE components (e.g. function, title, name).
 
-**Task 2 : Named Entity Linking (EL)**
+##### Task 2 : Named Entity Linking (EL)
 
 - **Subtask 2.1 - Entity coreference resolution**: given a set of mentions within and across
   documents, the objective is to cluster coreferent mentions and give them a cross-document
@@ -27,7 +27,7 @@ _(site under construction)_
 
 Evaluation corpora will be composed of articles sampled among several Swiss, Luxembourgish and British/American (still TBD) historical newspapers on a diachronic basis. They will be publicly released as part of the shared task.
 
-#### Corpus selection
+##### Corpus selection
 
 For each language, articles of 4 different newspapers were sampled on a decade time-bucket basis, according to the time span of the newspaper (longest duration spans ca. 200 years). 
 
@@ -43,7 +43,7 @@ The following selection criteria were used:
   - remove: feuilleton, tabular data, cross-words, meteo, time-schedules, obituaries, and what a human cannot even read because of OCR noise.
 
     
-#### Data sets
+##### Data sets
 
 For each language and task, the following data sets will be released:
 
@@ -52,17 +52,17 @@ For each language and task, the following data sets will be released:
 - dev (end of January): raw and annotated articles.
 
 
-#### Formats
+##### Formats
 
 More information on training and system response formats to come end of october.
 
 
-#### OCR quality
+##### OCR quality
 
 OCR quality corresponds to real-life setting, i.e. it varies according to digitization time and archival material. We do not provide different OCR versions of same texts, but will provide an OCR quality assessment measure alongside each article, as well as images (to be confirmed).
 
 
-#### Tagset, Annotation campaign & inter-annotator agreements
+##### Tagset, Annotation campaign & inter-annotator agreements
 
 More information to come during winter 2019-20.
 
@@ -94,14 +94,14 @@ More information to come during winter 2019-20.
 
 ###  HIPE Team
 
-####  Organizers
+#####  Organizers
 
 - [Maud Ehrmann](https://impresso-project.ch/consortium/people/#maud-ehrmann) (Digital Humanities Laboratory, EPFL, Switzerland).
 - [Matteo Romanello](https://impresso-project.ch/consortium/people/#matteo-romanello)  (Digital Humanities Laboratory, EPFL, Switzerland).
 - [Simon Clematide](https://impresso-project.ch/consortium/people/#simon-clematide) (Institute for Computational Linguistics, University of Zurich, Switzerland).
 
 
-####  Contributors
+#####  Contributors
 
 - Camille Watter (Institute for Computational Linguistics, University of Zurich, Switzerland).
 - Alex Flückiger (Institute for Computational Linguistics, University of Zurich, Switzerland).
@@ -111,10 +111,10 @@ More information to come during winter 2019-20.
 
 Lab preparation and execution activities are overseen by an advisory board, composed of the following persons:
 
-- [**Dr. Richard Eckart de Castillo**]( https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/detailseite_mitarbeiter_1_42176.en.jsp), Senior Researcher at Ubiquitous Knowledge Processing (UKP) Department of Computer Sciences, Technische Universität Darmstadt, Germany.
-- [**Clemens Neudecker**](https://cneud.net/ ), Digital Library Researcher & Project Manager at Berlin State Library, Germany.
-- [**Dr. Sophie Rosset**](https://perso.limsi.fr/rosset/EN/index.php), Senior Researcher at LIMSI-CNRS (French National Centre for Scientific Research), Paris-Orsay, France.
-- [**Prof. David Smith**](https://www.khoury.northeastern.edu/people/david-smith/), Professor at Khoury College of Computer Sciences, Northeastern University, Boston, US.
+- [Dr. Richard Eckart de Castillo]( https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/detailseite_mitarbeiter_1_42176.en.jsp), Senior Researcher at Ubiquitous Knowledge Processing (UKP) Department of Computer Sciences, Technische Universität Darmstadt, Germany.
+- [Clemens Neudecker](https://cneud.net/ ), Digital Library Researcher & Project Manager at Berlin State Library, Germany.
+- [Dr. Sophie Rosset](https://perso.limsi.fr/rosset/EN/index.php), Senior Researcher at LIMSI-CNRS (French National Centre for Scientific Research), Paris-Orsay, France.
+- [Prof. David Smith](https://www.khoury.northeastern.edu/people/david-smith/), Professor at Khoury College of Computer Sciences, Northeastern University, Boston, US.
 
 ### Contact
 
