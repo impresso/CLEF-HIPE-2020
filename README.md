@@ -7,7 +7,7 @@ HIPE is a named entity processing evaluation campaign on historical newspapers i
 
 ### Tasks
 
-##### Task 1: Named Entity Recognition and Classification (NERC)
+**Task 1: Named Entity Recognition and Classification (NERC)**
 
 - **Subtask 1.1 - NERC Essentials**: this task includes the recognition and classification of high-
   level entity types: Person, Organisation, Location and Product.
@@ -15,7 +15,7 @@ HIPE is a named entity processing evaluation campaign on historical newspapers i
 - **Subtask 1.2 - NERC fine-grained**: includes ‘NERC Essentials’, plus the detection and
   classification at sub-type level (e.g. Person-individual vs. Person-collective) and the detection of NE components (e.g. function, title, name).
 
-##### Task 2 : Named Entity Linking (EL)
+**Task 2 : Named Entity Linking (EL)**
 
 - **Subtask 2.1 - Entity coreference resolution**: given a set of mentions within and across
   documents, the objective is to cluster coreferent mentions and give them a cross-document
@@ -28,7 +28,7 @@ HIPE is a named entity processing evaluation campaign on historical newspapers i
 
 Evaluation corpora will be composed of articles sampled among several Swiss, Luxembourgish and British/American (still TBD) historical newspapers on a diachronic basis. They will be publicly released as part of the shared task.
 
-##### Corpus selection
+**Corpus selection**
 
 For each language, articles of 4 different newspapers were sampled on a decade time-bucket basis, according to the time span of the newspaper (longest duration spans ca. 200 years). 
 
@@ -44,7 +44,7 @@ The following selection criteria were used:
   - remove: feuilleton, tabular data, cross-words, meteo, time-schedules, obituaries, and what a human cannot even read because of OCR noise.
 
     
-##### Data sets
+**Data sets**
 
 For each language and task, the following data sets will be released:
 
@@ -53,22 +53,22 @@ For each language and task, the following data sets will be released:
 - dev (end of January): raw and annotated articles.
 
 
-##### Formats
+**Formats**
 
 More information on training and system response formats to come end of october.
 
 
-##### OCR quality
+**OCR quality**
 
 OCR quality corresponds to real-life setting, i.e. it varies according to digitization time and archival material. We do not provide different OCR versions of same texts, but will provide an OCR quality assessment measure alongside each article, as well as images (to be confirmed).
 
 
-##### Tagset, Annotation campaign & inter-annotator agreements
+**Tagset, Annotation campaign & inter-annotator agreements**
 
 More information to come during winter 2019-20.
 
 
-### Evaluation metrics & scorers
+**Evaluation metrics & scorers**
 
 - Scorers will be published at the same time of training data.
 - Named Entity Recognition and Classification (Task 1) will be evaluated in terms of macro and Precision, Recall, F-measure, and Slot Error Rate. Two evaluation scenarios will be considered: strict (exact boundary matching) and relaxed (fuzzy boundary matching).
