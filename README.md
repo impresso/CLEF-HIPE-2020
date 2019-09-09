@@ -67,6 +67,11 @@ OCR quality corresponds to real-life setting, i.e. it varies according to digiti
 
 More information to come during winter 2019-20.
 
+**Auxiliary resources**
+
+- HIPE will provide 'in domain' word and character embeddings acquired from historical newspaper corpora.
+- Participants will be encouraged (but not forced) to share any external resource they might use, during and/or after the evaluation campaign.
+
 
 **Evaluation metrics & scorers**
 
