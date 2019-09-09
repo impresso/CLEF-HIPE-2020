@@ -115,8 +115,11 @@ Lab preparation and execution activities are overseen by an advisory board, comp
 - [**Prof. David Smith**](https://www.khoury.northeastern.edu/people/david-smith/), Professor at Khoury College of Computer Sciences, Northeastern University, Boston, US.
 
 
-
-<img src=img/clef-association-logo.png" width="150"/> <img src=img/clef2020_logo.png" width="150"/> <img src=img/impresso-logo.v4.pdf" width="150"/>
+<p float="left">
+<img src=img/clef-association-logo.png" width="150" /> 
+<img src=img/clef2020_logo.png" width="150" /> 
+<img src=img/impresso-logo.v4.pdf" width="150"/>
+</p>
 
 
 
