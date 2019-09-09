@@ -2,6 +2,8 @@
 
 HIPE is a named entity processing evaluation campaign on historical newspapers in French, German and English, organized in the context of the [_impresso_](http://impresso-project.ch) project and run as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab. In the context of massive digitization of historical documents, the objective is to assess and advance the development of robust named entity processing systems able to deal with challenging, multilingual, diachronic historical material, thereby supporting information extraction and text understanding of cultural heritage data.
 
+_(site under construction)_
+
 ### Tasks
 
 **Task 1: Named Entity Recognition and Classification (NERC)**
@@ -114,11 +116,15 @@ Lab preparation and execution activities are overseen by an advisory board, comp
 - [**Dr. Sophie Rosset**](https://perso.limsi.fr/rosset/EN/index.php), Senior Researcher at LIMSI-CNRS (French National Centre for Scientific Research), Paris-Orsay, France.
 - [**Prof. David Smith**](https://www.khoury.northeastern.edu/people/david-smith/), Professor at Khoury College of Computer Sciences, Northeastern University, Boston, US.
 
+### Contact
+
+- Twitter: HIPE updates will be posted from [@ImpressoProject](https://twitter.com/ImpressoProject/) account
+- Website: We will publish all relevant information on this website
+- Email & mailing list: (soon)
 
 <p float="center">
-<img src="img/clef-association-logo.png" width="150" /> 
-<img src="img/clef2020_logo.png" width="150" /> 
-<img src="img/impresso-logo.v4.pdf" width="150"/>
+<img src="img/clef-association-logo.png" width="180" /> 
+<img src="img/clef2020_logo.png" width="180" /> 
 <img src="impresso-logo-h-RGB-inverted-4x.png" width="150"/>
 </p>
 
