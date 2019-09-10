@@ -117,7 +117,7 @@ More information to come during winter 2019-20.
 
 Lab preparation and execution activities are overseen by an advisory board, composed of the following persons:
 
-- [Dr. Richard Eckart de Castillo]( https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/detailseite_mitarbeiter_1_42176.en.jsp), Senior Researcher at Ubiquitous Knowledge Processing (UKP) Department of Computer Sciences, Technische Universität Darmstadt, Germany.
+- [Dr. Richard Eckart de Castillo]( https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/detailseite_mitarbeiter_1_42176.en.jsp), Senior Researcher and Lead developer of [INCEpTION](https://inception-project.github.io/) annotation tool at Ubiquitous Knowledge Processing (UKP) Department of Computer Sciences, Technische Universität Darmstadt, Germany.
 - [Clemens Neudecker](https://cneud.net/ ), Digital Library Researcher & Project Manager at Berlin State Library, Germany.
 - [Dr. Sophie Rosset](https://perso.limsi.fr/rosset/EN/index.php), Senior Researcher at LIMSI-CNRS (French National Centre for Scientific Research), Paris-Orsay, France.
 - [Prof. David Smith](https://www.khoury.northeastern.edu/people/david-smith/), Professor at Khoury College of Computer Sciences, Northeastern University, Boston, US.
