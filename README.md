@@ -122,9 +122,9 @@ Lab preparation and execution activities are overseen by an advisory board, comp
 - [Dr. Sophie Rosset](https://perso.limsi.fr/rosset/EN/index.php), Senior Researcher at LIMSI-CNRS (French National Centre for Scientific Research), Paris-Orsay, France.
 - [Prof. David Smith](https://www.khoury.northeastern.edu/people/david-smith/), Professor at Khoury College of Computer Sciences, Northeastern University, Boston, US.
 
-### Contact
+### Contact & Information
 
-- Website: We will publish all relevant information on this website
+- We will publish all relevant information on this website (work in progress)
 - Email & mailing list: (soon)
 - Twitter: HIPE updates will be posted from [@ImpressoProject](https://twitter.com/ImpressoProject/) account
 
