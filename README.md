@@ -26,7 +26,7 @@ HIPE is a named entity processing evaluation campaign on historical newspapers i
 
 ### Corpora
 
-Evaluation corpora will be composed of articles sampled among several Swiss, Luxembourgish and British/American (still TBD) historical newspapers on a diachronic basis. They will be publicly released as part of the shared task.
+Evaluation corpora will be composed of articles sampled among several Swiss, Luxembourgish and British/American (still TBD) historical newspapers on a diachronic basis. Articles and accompanying metadata will be publicly released as part of the shared task.
 
 **Corpus selection**
 
