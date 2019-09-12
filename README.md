@@ -17,9 +17,9 @@ HIPE is a named entity processing evaluation campaign on historical newspapers i
 
 **Task 2 : Named Entity Linking (EL)**
 
-- **Subtask 2.1 - Entity coreference resolution**: given a set of mentions within and across
-  documents, the objective is to cluster coreferent mentions and give them a cross-document
-  identifier.
+- **Subtask 2.1 - Entity coreference resolution**: given a set of mentions,
+cluster them into coreferent sets and give them a unique identifier.
+
 - **Subtask 2.2 - Entity Linking**: this task includes the linking of named entity mentions to a
   unique referent in a knowledge base (KB) or to a NIL node if the mention does not have a
   referent in the KB. The chosen KB is [Wikidata](https://wikidata.org).
@@ -69,7 +69,7 @@ More information to come during winter 2019-20.
 
 ### Auxiliary resources
 
-- HIPE will provide 'in domain' word and character embeddings acquired from historical newspaper corpora.
+- HIPE will provide 'in domain' word-level and character-level embeddings acquired from historical newspaper corpora.
 - Participants will be encouraged (but not forced) to share any external resource they might use, during and/or after the evaluation campaign.
 
 
@@ -124,8 +124,8 @@ Lab preparation and execution activities are overseen by an advisory board, comp
 
 ### Contact & Information
 
-- We will publish all relevant information on this website (work in progress)
-- Email & mailing list: (soon)
+- All relevant information will be published on this website (work in progress)
+- Mailing list: https://groups.google.com/forum/#!forum/clef-hipe-2020 (active from Nov 2019 on)
 - Twitter: HIPE updates will be posted from [@ImpressoProject](https://twitter.com/ImpressoProject/) account
 
 <p float="center">
