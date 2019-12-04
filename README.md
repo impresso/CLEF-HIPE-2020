@@ -14,8 +14,8 @@ HIPE is a named entity processing evaluation campaign on historical newspapers i
 
 **Task 2 : Named Entity Linking (EL)**
 
-- **Subtask 2.1 - Entity coreference resolution**: given a set of mentions within and across
-  documents, the objective is to cluster coreferent mentions and give them a cross-document
+- **Subtask 2.1 - Entity coreference resolution**: given a set of mentions *within* 
+  documents, the objective is to cluster coreferent mentions and give them a unique
   identifier.
 - **Subtask 2.2 - Entity Linking**: this task includes the linking of named entity mentions to a
   unique referent in a knowledge base (KB) or to a NIL node if the mention does not have a
@@ -23,31 +23,44 @@ HIPE is a named entity processing evaluation campaign on historical newspapers i
 
 ### Corpora
 
-Evaluation corpora will be composed of articles sampled among several Swiss, Luxembourgish and British/American (still TBD) historical newspapers on a diachronic basis. They will be publicly released as part of the shared task.
+Evaluation corpora will be composed of articles sampled among several Swiss, Luxembourgish and American historical newspapers on a diachronic basis. They will be publicly released as part of the shared task.
 
 #### Corpus selection
 
-For each language, articles of 4 different newspapers were sampled on a decade time-bucket basis, according to the time span of the newspaper (longest duration spans ca. 200 years). 
+For each language, articles of different newspapers were sampled on a decade time-bucket basis, according to the time span of the newspaper (longest duration spans ca. 200 years). 
 
 The following selection criteria were used:
 
 - Progammatic:
-  - articles should have a title
-  - articles should have more than 50 characters
-  - articles are not restricted to front page only
+  - articles should have a title;
+  - articles should have more than 50 characters;
+  - articles are not restricted to front page only.
 
 - Manual:
-  - keep: journalistic content
+  - keep: journalistic content;
   - remove: feuilleton, tabular data, cross-words, meteo, time-schedules, obituaries, and what a human cannot even read because of OCR noise.
 
-    
+  
+#### OCR quality
+
+OCR quality corresponds to real-life setting, i.e. it varies according to digitization time and archival material. We do not provide different OCR versions of same texts, but will provide an OCR quality assessment measure alongside each article, as well as images (to be confirmed).
+
+
+
 #### Data sets
 
-For each language and task, the following data sets will be released:
+For each  task, the following data sets will be released:
 
-- sample (end of November): a few raw and annotated articles so that participants could know what to expect;
-- training (end of January): raw and annotated articles;
-- dev (end of January): raw and annotated articles.
+|             | Fr                   | De                   | En                   |
+| ----------- | -------------------- | -------------------- | -------------------- |
+| sample data | 20.12.2019           | 20.12.2019           | -                    |
+| train       | 31.01.2020           | 31.01.2020           | -                    |
+| dev         | 31.01.2020           | 31.01.2020           | 31.01.2020           |
+| test        | after the evaluation | after the evaluation | after the evaluation |
+
+Data sets will consists of raw and annotated newspaper content items ('content item' is the neutral term we use to refer to newspaper contents below the page level, e.g. article, advertisement, image, table, weather forecast, obituary. In the HIPE context, mainly content items of type article are considered.
+
+
 
 
 #### Formats
@@ -55,9 +68,6 @@ For each language and task, the following data sets will be released:
 More information on training and system response formats to come end of october.
 
 
-#### OCR quality
-
-OCR quality corresponds to real-life setting, i.e. it varies according to digitization time and archival material. We do not provide different OCR versions of same texts, but will provide an OCR quality assessment measure alongside each article, as well as images (to be confirmed).
 
 
 #### Tagset, Annotation campaign & inter-annotator agreements
