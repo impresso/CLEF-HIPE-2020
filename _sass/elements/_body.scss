@@ -16,3 +16,11 @@ body {
   color: $color-white;
   background: $color-brand;
 }
+
+ul {
+  list-style-position: outside;
+  margin-left: -0.1rem;
+}
+li {
+  margin-bottom: $base-spacing-unit;
+}
