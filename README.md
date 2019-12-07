@@ -1,16 +1,50 @@
-### About
+
+
+
+
+### Home page
+
+**CLEF-HIPE-2020**
+
+**Identifying Historical People, Places and other Entities: Shared Task on Named Entity Recognition and Linking on  Historical Newspapers at CLEF 2020.**
 
 HIPE is a named entity processing evaluation campaign on historical newspapers in French, German and English, organized in the context of the [_impresso_](http://impresso-project.ch) project and run as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab. In the context of massive digitization of historical documents, the objective is to assess and advance the development of robust named entity processing systems able to deal with challenging, multilingual, diachronic historical material, thereby supporting information extraction and text understanding of cultural heritage data.
 
-### Tasks
+
 
 **Task 1: Named Entity Recognition and Classification (NERC)**
 
-- **Subtask 1.1 - NERC Essentials**: this task includes the recognition and classification of high-
-  level entity types: Person, Organisation, Location and Product.
+- **Subtask 1.1 - NERC Essentials**: recognition and classification of high-level entity types: Person, Organisation, Location and Product.
+  
+- **Subtask 1.2 - NERC fine-grained**: includes ‘NERC Essentials’, plus recognition and
+  classification at sub-type level (e.g. Person-individual vs. Person-collective), and detection of NE components (e.g. function, title, name).
 
-- **Subtask 1.2 - NERC fine-grained**: includes ‘NERC Essentials’, plus the detection and
-  classification at sub-type level (e.g. Person-individual vs. Person-collective) and the detection of NE components (e.g. function, title, name).
+**Task 2 : Named Entity Linking (EL)**
+
+- **Subtask 2.1 - Entity coreference resolution**: given a set of mentions *within* 
+  documents, the objective is to cluster coreferent mentions and give them a unique
+  identifier.
+  
+- **Subtask 2.2 - Entity Linking**: this task includes the linking of named entity mentions to a
+  unique referent in a knowledge base (KB) or to a NIL node if the mention does not have a
+  referent in the KB. The chosen KB is [Wikidata](https://wikidata.org).
+  
+  
+
+### (page) Tasks
+
+
+
+### Detailed Task Description
+
+
+
+**Task 1: Named Entity Recognition and Classification**
+
+- **Subtask 1.1 - NERC Essentials**: recognition and classification of high-level entity types: Person, Organisation, Location and Product.
+
+- **Subtask 1.2 - NERC fine-grained**: includes ‘NERC Essentials’, plus recognition and
+  classification at sub-type level (e.g. Person-individual vs. Person-collective), and detection of NE components (e.g. function, title, name).
 
 **Task 2 : Named Entity Linking (EL)**
 
@@ -21,9 +55,14 @@ HIPE is a named entity processing evaluation campaign on historical newspapers i
   unique referent in a knowledge base (KB) or to a NIL node if the mention does not have a
   referent in the KB. The chosen KB is [Wikidata](https://wikidata.org).
 
-### Corpora
 
-Evaluation corpora will be composed of articles sampled among several Swiss, Luxembourgish and American historical newspapers on a diachronic basis. They will be publicly released as part of the shared task.
+
+
+
+
+### (page) Data sets
+
+Evaluation corpora are composed of articles sampled among several Swiss, Luxembourgish and American historical newspapers on a diachronic basis. 
 
 #### Corpus selection
 
@@ -65,20 +104,20 @@ Data sets will consists of raw and annotated newspaper content items ('content i
 
 #### Formats
 
-More information on training and system response formats to come end of october.
+
 
 
 
 
 #### Tagset, Annotation campaign & inter-annotator agreements
 
-More information to come during winter 2019-20.
+
 
 
 ### Evaluation metrics & scorers
 
 - Scorers will be published at the same time of training data.
-- Named Entity Recognition and Classification (Task 1) will be evaluated in terms of macro and Precision, Recall, F-measure, and Slot Error Rate. Two evaluation scenarios will be considered: strict (exact boundary matching) and relaxed (fuzzy boundary matching).
+- Named Entity Recognition and Classification (Task 1) will be evaluated in terms of macro and micro Precision, Recall and F-measure, and Slot Error Rate. Two evaluation scenarios will be considered: strict (exact boundary matching) and relaxed (fuzzy boundary matching).
 - Entity linking and mention clustering (Task 2) will be evaluated in terms of Precision, Recall, F-measure and Linked-based Entity Aware metric.
 
 
