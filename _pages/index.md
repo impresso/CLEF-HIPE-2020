@@ -1,8 +1,10 @@
 ---
-layout: page
 title: About
+title_long: Information extraction and text understanding of cultural heritage data
+permalink: /
+layout: index
 order: 0
-image: '/images/pages/project-schema.jpg'
+image: /images/pages/project-schema.jpg
 ---
 
 HIPE is a named entity processing evaluation campaign on historical newspapers in French, German and English, organized in the context of the [_impresso_](http://impresso-project.ch) project and run as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab. In the context of massive digitization of historical documents, the objective is to assess and advance the development of robust named entity processing systems able to deal with challenging, multilingual, diachronic historical material, thereby supporting information extraction and text understanding of cultural heritage data.
