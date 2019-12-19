@@ -11,10 +11,9 @@ email:       ''
 description: 'Identifying Historical People, Places and other Entities: Shared Task on Named Entity Recognition and Linking on Historical Newspapers at CLEF 2020.'
 baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://type-jekyll.aspirethemes.com/' # The base hostname & protocol for your site
-twitter:     ''
+twitter:     'https://twitter.com/impressoproject'
 github:      ''
-instagram:   ''
-facebook:    ''
+
 
 markdown:  kramdown
 permalink: pretty
