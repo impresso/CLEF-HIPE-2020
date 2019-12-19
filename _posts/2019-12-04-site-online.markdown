@@ -1,8 +1,8 @@
 ---
 layout: post
 title: HIPE Shared Task
-#tags: [frontpage, jekyll, blog]
-#image: '/images/posts/1.jpg'
+tags: [frontpage, blog]
+image: '/images/posts/1.jpg'
 ---
 
 
