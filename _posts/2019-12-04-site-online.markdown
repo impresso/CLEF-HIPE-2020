@@ -1,7 +1,7 @@
 ---
 layout: post
-title: We are onlione !
-tags: [frontpage, jekyll, blog]
+title: We are online !
+tags: [frontpage, blog]
 image: '/images/posts/1.jpg'
 ---
 
