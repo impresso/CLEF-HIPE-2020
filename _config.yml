@@ -7,12 +7,12 @@
 
 # Site settings
 title:       CLEF-HIPE-2020
-email:       ''
+email:       'https://groups.google.com/forum/#!forum/clef-hipe-2020'
 description: 'Identifying Historical People, Places and other Entities: Shared Task on Named Entity Recognition and Linking on Historical Newspapers at CLEF 2020.'
 baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://type-jekyll.aspirethemes.com/' # The base hostname & protocol for your site
 twitter:     'https://twitter.com/impressoproject'
-github:      ''
+github:      'https://github.com/impresso/CLEF-HIPE-2020-scorer'
 
 
 markdown:  kramdown

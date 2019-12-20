@@ -5,21 +5,23 @@ order: 60
 #image: '/images/pages/about.jpeg'
 ---
 
-**Organisers**
+**HIPE team**
 
-[Maud Ehrmann](https://impresso-project.ch/consortium/people/#maud-ehrmann), EPFL, Switzerland.
+[Maud Ehrmann](https://impresso-project.ch/consortium/people/#maud-ehrmann), EPFL, Switzerland (organizer).
 
-[Matteo Romanello](https://impresso-project.ch/consortium/people/#matteo-romanello), EPFL, Switzerland.
+[Matteo Romanello](https://impresso-project.ch/consortium/people/#matteo-romanello), EPFL, Switzerland (organizer).
 
-[Simon Clematide](https://impresso-project.ch/consortium/people/#simon-clematide),  Zurich University, Switzerland.
+[Simon Clematide](https://impresso-project.ch/consortium/people/#simon-clematide),  Zurich University, Switzerland (organizer).
 
-#####  Contributors
+Gerold Schneider, University of Zurich, Switzerland (collaborator).
 
-Alex Flückiger, University of Zurich, Switzerland.
+Alex Flückiger, University of Zurich, Switzerland (collaborator).
 
-Camille Watter, University of Zurich, Switzerland.
+Camille Watter, University of Zurich, Switzerland (collaborator).
 
-Gerold, University of Zurich, Switzerland.
+Ilaria Comes, University of Luxembourg (annotation).
+
+Emmanuel Decker, University of Luxembourg (annotation).
 
 **Advisory Board**
 
