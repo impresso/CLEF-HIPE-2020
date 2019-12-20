@@ -1,0 +1,12 @@
+{% assign sorted_pages = site.pages | sort:"order" %}
+{% for p in sorted_pages %}
+  {% if p.order %}
+      <li class='c-nav__item' role='presentation'>
+        {% if page.url == p.url %}
+        <a class='c-nav__link--current' href='{{ p.url | prepend: site.baseurl }}'>{{ p.title }}</a>
+        {% else %}
+        <a class='c-nav__link' href='{{ p.url | prepend: site.baseurl }}'>{{ p.title }}</a>
+        {% endif %}
+      </li>
+  {% endif %}
+{% endfor %}

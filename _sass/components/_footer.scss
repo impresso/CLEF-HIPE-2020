@@ -1,0 +1,19 @@
+/*------------------------------------*\
+  Components > Footer
+\*------------------------------------*/
+
+.c-footer {
+  padding: double($base-spacing-unit) 0;
+  background-color: $bg-color-gray;
+
+  .c-nav__item {
+    display: inline;
+  }
+  .c-nav__link,
+  .c-nav__link--current {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0.1rem 0.5rem;
+
+  }
+}

@@ -1,0 +1,27 @@
+/*------------------------------------*\
+  Elements > Page
+\*------------------------------------*/
+
+body {
+  color: $color-text;
+  font-size: $font-size-base;
+  font-family: $font-base;
+  line-height: $line-height-base;
+
+  -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+*::selection {
+  color: $color-white;
+  background: $color-brand;
+}
+
+ul {
+  list-style-position: outside;
+  // margin-left: -0.1rem;
+  margin-left: 2rem;
+}
+li {
+  margin-bottom: $base-spacing-unit;
+}

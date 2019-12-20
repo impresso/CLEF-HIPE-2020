@@ -1,0 +1,46 @@
+<footer class='c-footer'>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--full'>
+      <ul class='o-plain-list c-footer-nav u-text-center'>
+        {% include navigation.html %}
+      </ul>
+      <hr>
+      <ul style="display: flex; align-items: center; justify-content: space-around;">
+        <li class='c-social-nav__item'>
+          <a href="http://clef-initiative.eu/" target="_blank">
+            <img src="/img/clef-association-logo.png" width="140" />
+          </a>
+        </li>
+        <li class='c-social-nav__item'>
+          <a href="https://clef2020.clef-initiative.eu/" target="_blank">
+            <img src="/img/clef2020_logo.png" width="180"/>
+          </a>
+        </li>
+        <li class='c-social-nav__item'>
+          <a href="https://impresso-project.ch/" target="_blank">
+            <img src="/img/impresso-logo-v@2x.png" width="100"/>
+          </a>
+        </li>
+      </ul>
+      <hr>
+      <ul class='o-plain-list c-social-nav u-text-center'>
+        <li class='c-social-nav__item'>
+          <a href='{{ site.twitter }}' target='_blank'>
+            <span class='c-social-nav__icon' data-icon='ei-sc-twitter' data-size='s'></span>
+          </a>
+        </li>
+        <li class='c-social-nav__item'>
+          <a href='{{ site.github }}' target='_blank'>
+            <span class='c-social-nav__icon' data-icon='ei-sc-github' data-size='s'></span>
+          </a>
+        </li>
+        <li class='c-social-nav__item'>
+          <a href='mailto:{{ site.email }}' target='_blank'>
+            <span class='c-social-nav__icon' data-icon='ei-envelope' data-size='s'></span>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</footer>
