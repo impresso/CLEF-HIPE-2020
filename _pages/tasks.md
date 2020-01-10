@@ -16,5 +16,5 @@ This task includes the linking of named entity mentions to a unique referent in 
 
 ### Detailed description
 
-For a detailed description of the tasks and instructions relative to participation, download the **[HIPE - Shared Task Participation Guidelines]().**
+For a detailed description of the tasks and instructions relative to participation, download the **[HIPE - Shared Task Participation Guidelines](https://zenodo.org/record/3604238).**
 
