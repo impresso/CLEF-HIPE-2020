@@ -2,7 +2,7 @@
 title: About
 title_long: Named Entity Processing on Historical Newspapers
 #title_long: HIPE Shared Task <br>Named Entity Processing on Historical Newspapers
-permalink: .
+#permalink: /
 layout: index
 order: 0
 ---
@@ -13,12 +13,12 @@ HIPE (Identifying Historical People, Places and other Entities) is a **named ent
 
 **Motivation**
 
-Since its introduction some twenty years ago, named entity (NE) processing has become an essential component of virtually any text mining application and has undergone major changes. Recently, two main trends characterise its developments: the adoption of deep learning architectures, and the consideration of textual material originating from historical and cultural heritage collections. While the former opens up new opportunities, the latter introduces new challenges with heterogeneous, historical and noisy inputs. If NE processing tools are increasingly being used in the context of historical documents, performances are below the ones on contemporary data and are hardly comparable. In this context,  the objective of HIPE is threefold: 
+Since its introduction some twenty years ago, named entity (NE) processing has become an essential component of virtually any text mining application and has undergone major changes. Recently, two main trends characterise its developments: the adoption of deep learning architectures, and the consideration of textual material originating from historical and cultural heritage collections. While the former opens up new opportunities, the latter introduces new challenges with heterogeneous, historical and noisy inputs. If NE processing tools are increasingly being used in the context of historical documents, performances are below the ones on contemporary data and are hardly comparable. In this context,  the objective of HIPE is threefold:
 
 1. to strengthen the robustness of existing approaches on non-standard input;
-2. to enable performance comparison of NE processing on historical texts; 
-   and, in the long run, 
-3. to foster efficient semantic indexing of historical documents in order to support scholarship on digital cultural heritage collections 
+2. to enable performance comparison of NE processing on historical texts;
+   and, in the long run,
+3. to foster efficient semantic indexing of historical documents in order to support scholarship on digital cultural heritage collections
 
 **Tasks**
 
