@@ -2,7 +2,7 @@
 layout: page
 title: Data
 order: 20
-#image: '/images/pages/corpora.jpg'
+#image: 'images/pages/corpora.jpg'
 ---
 
 

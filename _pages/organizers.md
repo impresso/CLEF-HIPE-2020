@@ -2,7 +2,7 @@
 layout: page
 title: Organizers
 order: 60
-#image: '/images/pages/about.jpeg'
+#image: 'images/pages/about.jpeg'
 ---
 
 **HIPE team**

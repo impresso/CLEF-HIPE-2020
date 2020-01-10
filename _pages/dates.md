@@ -2,7 +2,7 @@
 layout: page
 title: Important dates
 order: 40
-#image: '/images/pages/dates.jpg'
+#image: 'images/pages/dates.jpg'
 ---
 
 - **November 2019**: Registration opens.

@@ -2,7 +2,7 @@
 layout: page
 title: Evaluation settings
 order: 30
-#image: '/images/pages/scorer.jpg'
+#image: 'images/pages/scorer.jpg'
 ---
 
 

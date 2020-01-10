@@ -2,7 +2,7 @@
 layout: page
 title: References
 order: 70
-image: '/images/pages/references.jpg'
+image: 'images/pages/references.jpg'
 ---
 
 

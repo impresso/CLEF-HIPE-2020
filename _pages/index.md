@@ -2,12 +2,12 @@
 title: About
 title_long: Named Entity Processing on Historical Newspapers
 #title_long: HIPE Shared Task <br>Named Entity Processing on Historical Newspapers
-permalink: /
+permalink: .
 layout: index
 order: 0
 ---
 
-![alt](/images/pages/project-schema.jpg)
+![alt](images/pages/project-schema.jpg)
 
 HIPE (Identifying Historical People, Places and other Entities) is a **named entity processing evaluation campaign** on **historical newspapers** in **French**, **German** and **English**, organized in the context of the [_impresso_](http://impresso-project.ch) project and run as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab.
 

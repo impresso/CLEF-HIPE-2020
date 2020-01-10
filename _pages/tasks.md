@@ -2,7 +2,7 @@
 layout: page
 title: Tasks
 order: 10
-#image: '/images/pages/about.jpeg'
+#image: 'images/pages/about.jpeg'
 ---
 
 **Task 1: Named Entity Recognition and Classification (NERC)**
