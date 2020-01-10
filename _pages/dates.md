@@ -10,7 +10,7 @@ order: 40
 - **14 February 2020**: Release of full data (training and dev).
 - **26 April 2020**: Lab registration closes.
 - **27 April 2020 - 30 April  2020**: Evaluation period.
-- **30 April 2020**: System responses due (time: anywhere on earth).
+- **30 April 2020**: System responses due (time: midnight CET).
 - **8 May 2020**: Transmission of results to participants.
 - **24 May 2020:**  Submission of participant papers.
 - **14 June 2020:** Notification of acceptance of participant papers.
