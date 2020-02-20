@@ -14,7 +14,7 @@ Data acquisition and format are described in the [HIPE - Shared Task Participati
 #### Data sets:
 
 - **Sample data** for French and German is available **[HERE](https://github.com/impresso/CLEF-HIPE-2020/tree/2020-01-10/data/)**. It consists of 10 French and 8 German content items fully annotated.
-- **Training and dev data sets** version 0.9 are available **[HERE]()**.
+- **Training and dev data sets** version 0.9 are available **[HERE](https://github.com/impresso/CLEF-HIPE-2020/tree/master/data)**.
 
 
 
