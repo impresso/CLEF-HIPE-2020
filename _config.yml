@@ -15,7 +15,7 @@ url:         'https://type-jekyll.aspirethemes.com/' # The base hostname & proto
 twitter:     'https://twitter.com/impressoproject'
 github:      'https://github.com/impresso/CLEF-HIPE-2020-scorer'
 
-
+future: true
 markdown:  kramdown
 permalink: pretty
 paginate:  10
