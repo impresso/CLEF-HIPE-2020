@@ -35,7 +35,7 @@ Computed on version `v0.9` of our datasets;  last update: 20 February 2020.
 
 **Overview**
 
-![](images/pages/overview-table.png)
+![alt](images/pages/overview-table.png)
 
 As a reminder, we are not releasing training data for English.
 
@@ -43,31 +43,31 @@ As a reminder, we are not releasing training data for English.
 
 **Number of documents by decade**
 
-![](images/pages/n_documents_diachronic.png)
+![alt](images/pages/n_documents_diachronic.png)
 
 
 
 **Number of tokens by decade**
 
-![](images/pages/n_tokens_diachronic.png)	
+![alt](images/pages/n_tokens_diachronic.png)	
 
 
 
 **Number of mentions by decade**
 
-![](images/pages/n_mentions_diachronic.png)
+![alt](images/pages/n_mentions_diachronic.png)
 
 
 
 **Number of mentions, broken down by type (coarse)**
 
-![](images/pages/coarse.png)
+![alt](images/pages/coarse.png)
 
 
 
 **Number of mentions by decade, broken down by type (coarse)**
 
-![](images/pages/coarse_types_diachronic.png)
+![alt](images/pages/coarse_types_diachronic.png)
 
 
 
@@ -75,7 +75,7 @@ As a reminder, we are not releasing training data for English.
 
 We link mentions against Wikidata. NIL entities are those that do not have a corresponding entry in Wikidata.
 
-![](images/pages/avg_nil-entities_diachronic.png)
+![alt](images/pages/avg_nil-entities_diachronic.png)
 
 
 
@@ -83,17 +83,17 @@ We link mentions against Wikidata. NIL entities are those that do not have a cor
 
 Number of NIL entities over the total number of mentions (per decade).
 
-![](images/pages/nil_ratio_diachronic.png)
+![alt](images/pages/nil_ratio_diachronic.png)
 
 
 
 **NIL entities by mention type (coarse)**
 
-![](images/pages/coarse_nil.png)
+![alt](images/pages/coarse_nil.png)
 
 **Metonymy**
 
-![](images/pages/mentonymy_diachronic.png)
+![alt](images/pages/mentonymy_diachronic.png)
 
-![](images/pages/mentonymy_by_language_diachronic.png)
+![alt](images/pages/mentonymy_by_language_diachronic.png)
 
