@@ -16,8 +16,6 @@ order: 40
 - **30 April 2020, 23:59 CET**: Task bundles 1 to 4 system responses due*;
 - **06 May 2020, 21:00 CET:** Test data release for bundle 5 (i.e. mention boundaries);
 - **08 May 2020, 12:00 CET**: Transmission of results to each participating team for task bundles 1-4;
-
-  
 - **09 May 2020, 23.59 CET**: Task bundle 5 system responses due;
 - **12 May 2020, 12:00 CET**: Transmission of results to each participating team for bundle 5;
 - **15 May 2020, 12:00 CET**: Publication of test data.
