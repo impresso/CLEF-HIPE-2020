@@ -6,7 +6,7 @@ order: 40
 
 ---
 
-**!! Warning !!  Updated evaluation period calendar**, with 2 evaluation rounds.
+**Warning -  Updated evaluation period calendar**, with 2 evaluation rounds.
 
 - **November 2019**: Registration opens.
 - **December 2019**: Release of sample data.
