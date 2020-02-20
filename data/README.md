@@ -1,4 +1,4 @@
-This folder contains the data releases relateive to the [CLEF-HIPE shared task](https://impresso.github.io/CLEF-HIPE-2020/) on NERC and EL on historical newspapers.
+This folder contains the data releases relative to the [CLEF-HIPE shared task](https://impresso.github.io/CLEF-HIPE-2020/) on NERC and EL on historical newspapers.
 
 
 - **sample-v1.0**: 10 French and 8 German content items fully annotated.
