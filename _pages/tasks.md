@@ -30,11 +30,4 @@ For a detailed description of the tasks and instructions relative to participati
 
 ### Task bundles
 
-| **Bundle id** | **Associated tasks**              | **Relevant columns in the IOB response file**                |
-| ------------- | --------------------------------- | ------------------------------------------------------------ |
-| bundle 1      | NERC-coarse and NERC-fine and NEL | TOKEN, NE-COARSE, NE-FINE-LIT, NE-FINE-METO, NE-FINE-COMP, NE-FINE-NESTED, NEL |
-| bundle 2      | NERC-coarse and NEL               | TOKEN, NE-COARSE, NEL                                        |
-| bundle 3      | NERC-coarse and NERC-fine         | TOKEN, NE-COARSE, NE-FINE1, NE-FINE1-COMP, NE-FINE2          |
-| bundle 4      | NERC-coarse                       | TOKEN, NE-COARSE                                             |
-| bundle 5      | NEL                               | TOKEN, NEL                                                   |
-
+![](images/pages/bundles.png)

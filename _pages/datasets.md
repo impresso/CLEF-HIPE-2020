@@ -9,7 +9,7 @@ order: 20
 
 The shared tasks corpora are composed of articles sampled among several Swiss, Luxembourgish and American historical newspapers on a diachronic basis.
 
-Data acquisition and format are described in the [HIPE - Shared Task Participation Guidelines]().
+Data acquisition and format are described in the [HIPE - Shared Task Participation Guidelines](https://zenodo.org/record/3677171).
 
 #### Data sets:
 

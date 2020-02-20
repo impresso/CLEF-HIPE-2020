@@ -15,34 +15,13 @@ HIPE (Identifying Historical People, Places and other Entities) is a **named ent
 
 *(also visit various pages via the 'hamburger' menu on the top right)*
 
-**Tasks** 
+**Tasks:** Named Entity Recognition and Classification and Named Entity Linking.
 
-- Task 1: Named Entity Recognition and Classification.
+**Registration:** [http://clef2020-labs-registration.dei.unipd.it/]( http://clef2020-labs-registration.dei.unipd.it/) until 26 April 2020.
 
-- Task 2 : Named Entity Linking.
-  
-  
+**Data**: in this [github repository](https://github.com/impresso/CLEF-HIPE-2020/tree/master/data).
 
-**Registration**
-
-Via the CLEF 2020 portal: [http://clef2020-labs-registration.dei.unipd.it/]( http://clef2020-labs-registration.dei.unipd.it/) until 26 April 2020.
-
-
-
-**Data** 
-
-In this **[github repository](https://github.com/impresso/CLEF-HIPE-2020/tree/master/data)** you will find:
-
-- sample data v1.0.
-- traning and dev data v0.9 (contains the sample data).
-
-
-
-**Participation**
-
-The [participation guidelines]() (v1.1) offer a detailed description of the tasks and provide instructions relative to participation.
-
-
+**Participation:** the [participation guidelines](https://zenodo.org/record/3677171) (**v1.1**) offer a detailed description of the tasks and provide instructions relative to participation.
 
 **Evaluation**
 

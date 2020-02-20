@@ -34,7 +34,7 @@ The Slot Error Rate (SER) is dropped for the shared task evaluation.
 
 The evaluation for **NEL** works similarly as for NERC. The link of an entity is interpreted as a label. As there is no IOB-tagging, a consecutive row of identical links is considered as a single entity. In terms of boundaries, NEL is only evaluated according to the fuzzy scenario. Thus, to get counted as correct, the system response needs only one overlapping link label with the gold standard. 
 
-[TODO: potentially add a word on fuzzy (= more than one link) NEL evaluation]
+With respect to the linking of metonymic mentions, two evaluation scenarios will be considered: strict, where only the metonymic link will be taken into account, and relaxed, where the union of literal and metonymic annotations will be taken into account.  This is not implemented yet in the scorer, it will be done with the next release.
 
 
 
