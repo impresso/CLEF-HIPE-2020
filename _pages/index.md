@@ -9,6 +9,16 @@ order: 0
 
 ![alt](images/pages/project-schema.jpg)
 
+**-------** 
+
+### >> Update Covid-19 <<
+
+CLEF conference and CLEF Labs calendar are maintained for the moment, but as for many other events, the evolution is changing rapidly and is closely monitored by the organisers. We will relay all updates impacting HIPE calendar on the website and via the googlegroup mailing list. 
+
+**-------** 
+
+
+
 HIPE (Identifying Historical People, Places and other Entities) is a **named entity processing evaluation campaign** on **historical newspapers** in **French**, **German** and **English**, organized in the context of the [_impresso_](http://impresso-project.ch) project and run as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab.
 
 ### Key information
