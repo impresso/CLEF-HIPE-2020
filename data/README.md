@@ -1,4 +1,4 @@
-## HIPE Shared Task Data
+# HIPE Shared Task Data
 
 This folder contains the data releases relative to the [CLEF-HIPE shared task](https://impresso.github.io/CLEF-HIPE-2020/) on NERC and EL on historical newspapers. Please note that these datasets are not yet in their final versions but will evolve until end of spring 2020 approximately.
 
