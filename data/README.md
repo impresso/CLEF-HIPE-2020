@@ -4,6 +4,7 @@ This folder contains the data releases relative to the [CLEF-HIPE shared task](h
 
 
 
+- **training-v1.1**  (released 7.04.2020): this release fixes a problem in the German validation set (see issue [#5](https://github.com/impresso/CLEF-HIPE-2020/issues/5)), as well as with escaping double quotes in the TSV exports.
 - **training-v1.0** (released 26.03.2020): second version of training and dev datasets for German and French, and of dev dataset for English (there won't be training data for English). Main changes are quantitative (more documents and therefore more mentions and linked entities). Foreseen release v1.1 beginning of april with increased quality.
 - **training-v0.9** (released 20.02.2020): first version of training and dev datasets for German and French, and first version of dev dataset for English (there won't be training data for English). 
 
