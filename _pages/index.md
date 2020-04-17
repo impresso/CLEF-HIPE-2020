@@ -13,7 +13,7 @@ order: 0
 
 ### >> Update Covid-19 <<
 
-CLEF conference and CLEF Labs calendar are maintained for the moment, but as for many other events, the evolution is changing rapidly and is closely monitored by the organisers. We will relay all updates impacting HIPE calendar on the website and via the googlegroup mailing list. 
+In order to address the challenges posed by Covid-19, CLEF 2020 organizers decided to adapt the schedule of the Evaluation Labs. The evaluation period is postponed by ca. a month, as well as paper submission. The final conference will happen online at the same date. Check the new [HIPE calendar](CLEF-HIPE-2020/_pages/dates.md) and the CLEF [home page](https://clef2020.clef-initiative.eu/)
 
 **-------** 
 
