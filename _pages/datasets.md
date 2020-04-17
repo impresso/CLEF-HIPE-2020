@@ -20,8 +20,20 @@ Data acquisition and format are described in the [HIPE - Shared Task Participati
 
 #### Auxiliary resources
 
-- HIPE will provide ‘in domain’ word-level and character-level embeddings acquired from historical newspaper corpora.
-- Participants will be encouraged (but not forced) to share any  external resource they might use, during and/or after the evaluation  campaign.
+HIPE provides **‘in domain’ fastText embeddings** acquired from the impresso newspapers and time periods from which HIPE training and development sets were extracted.
+
+The preprocessing tries to mimic the tokenization of the HIPE data and involves the following normalizations: lowercasing; replacement of each digit by 0; deletion of all tokens with length 1 (e.g. punctuation).
+
+ The exact training parameters of each model `MODEL.bin` can be found in  the corresponding file `MODEL.bin.info.txt` as computed by the  `fasttext dump args`.
+
+ We offer embeddings 
+
+- with subword 3-6 character n-grams: [link](https://files.ifi.uzh.ch/cl/siclemat/impresso/clef-hipe-2020/fasttext/fr-model-skipgram-300minc20-ws5-maxn-6.bin)
+- and a version without: [link][https://files.ifi.uzh.ch/cl/siclemat/impresso/clef-hipe-2020/fasttext/fr-model-skipgram-300minc20-ws5-maxn-0.bin]. 
+
+ Additionally to the binary models, we uploaded textual .vec formats. For all downloads visit [here](https://files.ifi.uzh.ch/cl/siclemat/impresso/clef-hipe-2020/fasttext/).
+
+***We strongly encourage participants to also share any external resource they might use, during and/or after the evaluation campaign.***
 
 
 
