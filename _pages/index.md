@@ -13,7 +13,7 @@ order: 0
 
 ### >> Update Covid-19 <<
 
-In order to address the challenges posed by Covid-19, CLEF 2020 organizers decided to adapt the schedule of the Evaluation Labs. The evaluation period is postponed by ca. a month, as well as paper submission. The final conference will happen online at the same date. Check the new [HIPE calendar](CLEF-HIPE-2020/_pages/dates.md) and the CLEF [home page](https://clef2020.clef-initiative.eu/)
+In order to address the challenges posed by Covid-19, CLEF 2020 organizers decided to adapt the schedule of the Evaluation Labs. The evaluation period is postponed by ca. a month, as well as paper submission. The final conference will happen online at the same date. Check the new [HIPE calendar](/CLEF-HIPE-2020/dates) and the CLEF [home page](https://clef2020.clef-initiative.eu/).
 
 **-------** 
 
@@ -35,7 +35,7 @@ HIPE (Identifying Historical People, Places and other Entities) is a **named ent
 
 **Evaluation**
 
-- For information about the metrics, visit the dedicated [page](CLEF-HIPE-2020/_pages/evaluation.md) or section 4 of the participation guidelines.
+- For information about the metrics, visit the dedicated [page](/CLEF-HIPE-2020/evaluation) or section 4 of the participation guidelines.
 
 - HIPE scorer available **[HERE](https://github.com/impresso/CLEF-HIPE-2020-scorer)**.
 

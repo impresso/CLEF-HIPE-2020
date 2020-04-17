@@ -29,7 +29,7 @@ The preprocessing tries to mimic the tokenization of the HIPE data and involves 
  We offer embeddings 
 
 - with subword 3-6 character n-grams: [link](https://files.ifi.uzh.ch/cl/siclemat/impresso/clef-hipe-2020/fasttext/fr-model-skipgram-300minc20-ws5-maxn-6.bin)
-- and a version without: [link][https://files.ifi.uzh.ch/cl/siclemat/impresso/clef-hipe-2020/fasttext/fr-model-skipgram-300minc20-ws5-maxn-0.bin]. 
+- and a version without: [link](https://files.ifi.uzh.ch/cl/siclemat/impresso/clef-hipe-2020/fasttext/fr-model-skipgram-300minc20-ws5-maxn-0.bin). 
 
  Additionally to the binary models, we uploaded textual .vec formats. For all downloads visit [here](https://files.ifi.uzh.ch/cl/siclemat/impresso/clef-hipe-2020/fasttext/).
 
