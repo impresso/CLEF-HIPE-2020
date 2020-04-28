@@ -19,7 +19,7 @@ Data acquisition and format are described in the [HIPE - Shared Task Participati
 
 
 #### Auxiliary resources
-
+##### fasttext word embeddings
 HIPE provides **‘in domain’ fastText embeddings** acquired from the impresso newspapers and time periods from which HIPE training and development sets were extracted.
 
 The preprocessing tries to mimic the tokenization of the HIPE data and involves the following normalizations: lowercasing; replacement of each digit by 0; deletion of all tokens with length 1 (e.g. punctuation).
@@ -32,6 +32,33 @@ The preprocessing tries to mimic the tokenization of the HIPE data and involves 
 - and a version without: [link](https://files.ifi.uzh.ch/cl/siclemat/impresso/clef-hipe-2020/fasttext/fr-model-skipgram-300minc20-ws5-maxn-0.bin). 
 
  Additionally to the binary models, we uploaded textual .vec formats. For all downloads visit [here](https://files.ifi.uzh.ch/cl/siclemat/impresso/clef-hipe-2020/fasttext/).
+
+For more information on fasttext and tutorials, visit [the fasttext website](https://fasttext.cc).
+
+##### flair contextualized string embeddings (aka. character embeddings)
+The preprocessing involves the following steps:
+
+ - lowercasing
+ - replacement of each digit by 0
+ - replacement of each newline by space
+
+Everything else was kept as in the original text (e.g. tokens of length 1). This is an example of the input to flair: ` in . the mer- chant's, family was lost sight of. it was doubtless destroyed more than a cen- tury ago. liut not so with tatty, the pet of the parsonage. abigail french, the minis- ter's daughter, w
+as born on the last day of may, 0000. she was eight years of age when she received this treasure. mrs`
+
+The amount for our our indomain training differs largely between languages:
+
+ - French taken from Swiss and Luxembourgish newspapers: 20G
+ - English taken from Chronicling America material: 1.1G
+ - German taken from Swiss and Luxembourgish newspapers: 8.5G
+
+Technical details: The embedding size for characters is 2048. We use flair 0.4.5 to compute the embeddings using a context of 250 characters, a batchsize of 400-600 (depending on the GPUs memory), 1 hidden layer, dropout of 0.1. See the [tutorial on language modeling](https://github.com/flairNLP/flair/blob/master/resources/docs/TUTORIAL_9_TRAINING_LM_EMBEDDINGS.md) for more information.
+
+For download, visit [link](https://files.ifi.uzh.ch/cl/siclemat/impresso/clef-hipe-2020/flair). You find the forward and backward model for each language in a separate directory:
+
+ - `best-lm.pt` contains the parameters you will use
+ - `loss.txt` contains the training logs (scores on the training and dev set)
+
+For more information on flair and tutorials on how to use flair embeddings, visit [the flair website](https://github.com/flairNLP/flair). 
 
 ***We strongly encourage participants to also share any external resource they might use, during and/or after the evaluation campaign.***
 
