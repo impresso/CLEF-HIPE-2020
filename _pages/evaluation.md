@@ -34,7 +34,9 @@ The Slot Error Rate (SER) is dropped for the shared task evaluation.
 
 The evaluation for **NEL** works similarly as for NERC. The link of an entity is interpreted as a label. As there is no IOB-tagging, a consecutive row of identical links is considered as a single entity. In terms of boundaries, NEL is only evaluated according to the fuzzy scenario. Thus, to get counted as correct, the system response needs only one overlapping link label with the gold standard. 
 
-With respect to the linking of metonymic mentions, two evaluation scenarios will be considered: strict, where only the metonymic link will be taken into account, and relaxed, where the union of literal and metonymic annotations will be taken into account.  This is not implemented yet in the scorer, it will be done with the next release.
+With respect to the linking of metonymic mentions, two evaluation scenarios will be considered: strict, where only the metonymic link will be taken into account, and relaxed, where the union of literal and metonymic annotations will be taken into account (this is now implemented in the scorer).
+
+**IMPORTANT**: In order to relax the evaluation setting for the difficult task of NEL, we added the possibility for systems to **return more than one response** with a pipe-separated list of QIDs as a value for the NEL-LIT and/or NEL-METO columns (e.g. “Q83|Q1282|Q1200”). An answer is considered as correct if the reference QID is within the 3 or 5 submitted candidates. All systems will be evaluated by F@1; we will additionally report F@3 and F@5 for systems providing more than one value.
 
 
 
