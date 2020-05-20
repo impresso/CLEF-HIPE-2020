@@ -13,18 +13,18 @@ HIPE scorer available **[HERE](https://github.com/impresso/CLEF-HIPE-2020-scorer
 
 **Metrics**
 
-**NERC** is evaluated in terms of **macro and micro Precision, Recall, F1-measure**. Two evaluation scenarios are considered: **strict** (exact boundary matching) and **relaxed** (fuzzy boundary matching). 
+**NERC** is evaluated in terms of **macro and micro Precision, Recall, F1-measure**. Two evaluation scenarios are considered: **strict** (exact boundary matching) and **relaxed** (fuzzy boundary matching).
 
 Each column is evaluated independently, according to the following metrics:
 
-- Micro average P, R, F1 at entity level (not at token level), i.e. consideration of all true positives, false positives, true negatives and false negative over all documents. 
+- Micro average P, R, F1 at entity level (not at token level), i.e. consideration of all true positives, false positives, true negatives and false negative over all documents.
   - strict (exact boundary matching) and fuzzy (at least 1 token overlap).
   - separately per type and cumulative for all types.
-  
+
 - Document-level macro average P, R, F1 at entity level (not on token level). i.e. average of separate micro evaluation on each individual document.
   - strict and fuzzy
   - separately per type and cumulative for all types
-  
+
 
 Our definition of macro differs from the usual one, and macro measures are computed as aggregates on document-level instead of entity-type level. Specifically, macro measures average the corresponding micro scores across all the documents, accounting for (historical) variance in document length and not for class imbalances.
 
@@ -32,13 +32,8 @@ Note that in the strict scenario, predicting wrong boundaries leads to severe pu
 
 The Slot Error Rate (SER) is dropped for the shared task evaluation.
 
-The evaluation for **NEL** works similarly as for NERC. The link of an entity is interpreted as a label. As there is no IOB-tagging, a consecutive row of identical links is considered as a single entity. In terms of boundaries, NEL is only evaluated according to the fuzzy scenario. Thus, to get counted as correct, the system response needs only one overlapping link label with the gold standard. 
+The evaluation for **NEL** works similarly as for NERC. The link of an entity is interpreted as a label. As there is no IOB-tagging, a consecutive row of identical links is considered as a single entity. In terms of boundaries, NEL is only evaluated according to the fuzzy scenario. Thus, to get counted as correct, the system response needs only one overlapping link label with the gold standard.
 
 With respect to the linking of metonymic mentions, two evaluation scenarios will be considered: strict, where only the metonymic link will be taken into account, and relaxed, where the union of literal and metonymic annotations will be taken into account (this is now implemented in the scorer).
 
-**IMPORTANT**: In order to relax the evaluation setting for the difficult task of NEL, we added the possibility for systems to **return more than one response** with a pipe-separated list of QIDs as a value for the NEL-LIT and/or NEL-METO columns (e.g. “Q83|Q1282|Q1200”). An answer is considered as correct if the reference QID is within the 3 or 5 submitted candidates. All systems will be evaluated by F@1; we will additionally report F@3 and F@5 for systems providing more than one value.
-
-
-
-
-
+**IMPORTANT**: In order to relax the evaluation setting for the difficult task of NEL, we added the possibility for systems to **return more than one response** with a pipe-separated list of QIDs as a value for the NEL-LIT and/or NEL-METO columns (e.g. “Q83\|Q1282\|Q1200”). An answer is considered as correct if the reference QID is within the 3 or 5 submitted candidates. All systems will be evaluated by F@1; we will additionally report F@3 and F@5 for systems providing more than one value.
