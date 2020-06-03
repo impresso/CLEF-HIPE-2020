@@ -3,6 +3,7 @@
 This folder contains the data releases relative to the [CLEF-HIPE shared task](https://impresso.github.io/CLEF-HIPE-2020/) on NERC and EL on historical newspapers. Please note that these datasets are not yet in their final versions but will evolve until end of spring 2020 approximately.
 
 
+- **test-masked-v1.3** (released 03.06.2020): masked test dataset for evaluation of system runs for task bundle 5.
 - **test-masked-v1.2** (released 25.05.2020): masked test dataset for evaluation of system runs for task bundles 1-4.
 - **training-v1.2**  (released 12.10.2020): fourth version of training and dev datasets for HIP. Main changes are: additional data for French and German.
 - **training-v1.1**  (released 7.04.2020): this release fixes a problem in the German validation set (see issue [#5](https://github.com/impresso/CLEF-HIPE-2020/issues/5)), as well as with escaping double quotes in the TSV exports.
