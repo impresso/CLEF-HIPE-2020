@@ -1,0 +1,22 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+team10_bundle1_fr_1	NE-FINE-COMP-micro-fuzzy	ALL	0.773	0.832	0.801				591	174	119
+team10_bundle1_fr_3	NE-FINE-COMP-micro-fuzzy	ALL	0.773	0.832	0.801				591	174	119
+team10_bundle1_fr_2	NE-FINE-COMP-micro-fuzzy	ALL	0.751	0.827	0.787				587	195	123
+team1_bundle3_fr_1	NE-FINE-COMP-micro-fuzzy	ALL	0.801	0.707	0.751				502	125	208
+team1_bundle3_fr_2	NE-FINE-COMP-micro-fuzzy	ALL	0.801	0.707	0.751				502	125	208
+team1_bundle3_fr_3	NE-FINE-COMP-micro-fuzzy	ALL	0.785	0.714	0.748				507	139	203
+team16_bundle1_fr_1	NE-FINE-COMP-micro-fuzzy	ALL	0.074	0.08	0.077				57	711	653
+team10_bundle1_fr_2	NE-FINE-LIT-micro-fuzzy	ALL	0.843	0.869	0.856				1391	260	209
+team10_bundle1_fr_1	NE-FINE-LIT-micro-fuzzy	ALL	0.83	0.863	0.846				1381	282	219
+team10_bundle1_fr_3	NE-FINE-LIT-micro-fuzzy	ALL	0.83	0.863	0.846				1381	282	219
+team1_bundle3_fr_2	NE-FINE-LIT-micro-fuzzy	ALL	0.776	0.807	0.791				1291	373	309
+team1_bundle3_fr_1	NE-FINE-LIT-micro-fuzzy	ALL	0.799	0.779	0.789				1247	313	353
+team1_bundle3_fr_3	NE-FINE-LIT-micro-fuzzy	ALL	0.801	0.773	0.787				1237	308	363
+team16_bundle1_fr_1	NE-FINE-LIT-micro-fuzzy	ALL	0.568	0.324	0.412				518	394	1082
+team10_bundle1_fr_1	NE-FINE-METO-micro-fuzzy	ALL	0.738	0.679	0.707				76	27	36
+team10_bundle1_fr_3	NE-FINE-METO-micro-fuzzy	ALL	0.738	0.679	0.707				76	27	36
+team10_bundle1_fr_2	NE-FINE-METO-micro-fuzzy	ALL	0.626	0.688	0.655				77	46	35
+team1_bundle3_fr_1	NE-FINE-METO-micro-fuzzy	ALL	0.667	0.554	0.605				62	31	50
+team1_bundle3_fr_2	NE-FINE-METO-micro-fuzzy	ALL	0.667	0.554	0.605				62	31	50
+team1_bundle3_fr_3	NE-FINE-METO-micro-fuzzy	ALL	0.677	0.393	0.497				44	21	68
+team16_bundle1_fr_1	NE-FINE-METO-micro-fuzzy	ALL	0	0.0	0				0	0	112

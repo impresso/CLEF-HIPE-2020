@@ -1,0 +1,19 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+team10_bundle1_de_2	NE-FINE-COMP-micro-strict	ALL	0.595	0.698	0.642				301	205	130
+team10_bundle1_de_1	NE-FINE-COMP-micro-strict	ALL	0.619	0.638	0.629				275	169	156
+team10_bundle1_de_3	NE-FINE-COMP-micro-strict	ALL	0.619	0.638	0.629				275	169	156
+team1_bundle3_de_3	NE-FINE-COMP-micro-strict	ALL	0.681	0.494	0.573				213	100	218
+team1_bundle3_de_1	NE-FINE-COMP-micro-strict	ALL	0.7	0.434	0.536				187	80	244
+team1_bundle3_de_2	NE-FINE-COMP-micro-strict	ALL	0.7	0.434	0.536				187	80	244
+team10_bundle1_de_1	NE-FINE-LIT-micro-strict	ALL	0.628	0.712	0.668				817	483	330
+team10_bundle1_de_3	NE-FINE-LIT-micro-strict	ALL	0.628	0.712	0.668				817	483	330
+team10_bundle1_de_2	NE-FINE-LIT-micro-strict	ALL	0.629	0.697	0.661				799	471	348
+team1_bundle3_de_2	NE-FINE-LIT-micro-strict	ALL	0.65	0.592	0.62				679	366	468
+team1_bundle3_de_1	NE-FINE-LIT-micro-strict	ALL	0.617	0.571	0.593				655	406	492
+team1_bundle3_de_3	NE-FINE-LIT-micro-strict	ALL	0.583	0.558	0.57				640	457	507
+team10_bundle1_de_2	NE-FINE-METO-micro-strict	ALL	0.601	0.703	0.648				83	55	35
+team10_bundle1_de_1	NE-FINE-METO-micro-strict	ALL	0.58	0.703	0.636				83	60	35
+team10_bundle1_de_3	NE-FINE-METO-micro-strict	ALL	0.58	0.703	0.636				83	60	35
+team1_bundle3_de_3	NE-FINE-METO-micro-strict	ALL	0.707	0.551	0.619				65	27	53
+team1_bundle3_de_1	NE-FINE-METO-micro-strict	ALL	0.718	0.475	0.571				56	22	62
+team1_bundle3_de_2	NE-FINE-METO-micro-strict	ALL	0.718	0.475	0.571				56	22	62

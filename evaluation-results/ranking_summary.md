@@ -1,0 +1,480 @@
+# CLEF HIPE 2020 preliminary results
+
+We provide **overview tables** of the anonymized results of the runs submitted by 13 teams **for the first phase**.
+
+- **Date**: 05.06.2020. 
+- **Bundles**: 1 to 4
+- **Detailed results for all systems** can be found in this .tsv files.
+- **Detailed results for each team's runs** are sent privately.
+- **System name composition** is: teamID_bundleID_lang_runID.
+- F1 scores of 0.0 are excluded from the table.
+- Results are ordered by F scores.
+- Official **de-anonymized** results will be published at the end of the evaluation period on 12 June 2020.
+
+### About the evaluation (reminder)
+- NERC and Entity Linking (EL) are evaluated in terms of macro and micro Precision, Recall, F1-measure. Here **only micro is reported.**
+
+- Evaluation scenarios for **NERC**
+    - **Strict**: exact boundary matching.
+    - **Fuzzy**: fuzzy (=overlap) boundary matching.
+
+- Evaluation scenarios for **EL**:
+In terms of boundaries, NEL is only evaluated according to fuzzy boundary matching in all scenarios. What is of interest is the capacity to provide the correct link rather than the correct boundaries (NERC task).
+    - **Strict**: one candidate link is taken into account.
+       For this scenario, we additionally report F@3/5 in the .tsv file.
+    - **Relaxed**: 
+        - the union of predicted LIT and METO links are taken into account;
+        - the set of system's candidates is expanded with a QID mapping where historically 
+related entities are mapped,  e.g "Germany" is mapped to the more specific "Confederation of the Rhine". Systems are therefore evaluated more generously.
+      For this scenario, we additionally report F@2/6/10 in the .tsv file.
+
+## NERC coarse
+
+Relevant bundles: 1-4
+
+### NERC coarse German strict (literal sense) \[`NE-COARSE-LIT-micro-strict`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_de_2 | 0.797 | 0.79        | 0.805    |
+| 2      | team10_bundle1_de_1 | 0.785 | 0.764       | 0.807    |
+| 3      | team10_bundle1_de_3 | 0.785 | 0.764       | 0.807    |
+| 4      | team1_bundle3_de_2  | 0.678 | 0.697       | 0.659    |
+| 5      | team1_bundle3_de_1  | 0.671 | 0.693       | 0.65     |
+| 6      | team28_bundle4_de_2 | 0.658 | 0.658       | 0.658    |
+| 7      | team1_bundle3_de_3  | 0.653 | 0.658       | 0.648    |
+| 8      | team8_bundle4_de_1  | 0.651 | 0.745       | 0.578    |
+| 9      | team8_bundle4_de_2  | 0.649 | 0.744       | 0.576    |
+| 10     | team28_bundle4_de_1 | 0.648 | 0.631       | 0.666    |
+| 11     | team8_bundle4_de_3  | 0.642 | 0.738       | 0.568    |
+| 12     | team23_bundle4_de_1 | 0.621 | 0.677       | 0.575    |
+| 13     | team23_bundle4_de_2 | 0.618 | 0.638       | 0.6      |
+| 14     | team31_bundle2_de_2 | 0.526 | 0.499       | 0.556    |
+| 15     | team28_bundle4_de_3 | 0.521 | 0.644       | 0.438    |
+| 16     | team33_bundle2_de_1 | 0.491 | 0.499       | 0.484    |
+| 17     | team31_bundle2_de_1 | 0.459 | 0.406       | 0.527    |
+| 18     | team40_bundle4_de_1 | 0.454 | 0.695       | 0.337    |
+| 19     | team23_bundle4_de_3 | 0.224 | 0.178       | 0.302    |
+
+### NERC coarse German fuzzy (literal sense) \[`NE-COARSE-LIT-micro-fuzzy`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_de_2 | 0.878 | 0.87        | 0.886    |
+| 2      | team10_bundle1_de_1 | 0.861 | 0.838       | 0.886    |
+| 3      | team10_bundle1_de_3 | 0.861 | 0.838       | 0.886    |
+| 4      | team28_bundle4_de_1 | 0.796 | 0.775       | 0.819    |
+| 5      | team1_bundle3_de_1  | 0.789 | 0.814       | 0.765    |
+| 6      | team1_bundle3_de_2  | 0.784 | 0.807       | 0.763    |
+| 7      | team28_bundle4_de_2 | 0.784 | 0.784       | 0.785    |
+| 8      | team1_bundle3_de_3  | 0.781 | 0.787       | 0.775    |
+| 9      | team8_bundle4_de_1  | 0.769 | 0.88        | 0.683    |
+| 10     | team8_bundle4_de_2  | 0.768 | 0.88        | 0.682    |
+| 11     | team8_bundle4_de_3  | 0.765 | 0.88        | 0.677    |
+| 12     | team23_bundle4_de_2 | 0.763 | 0.788       | 0.74     |
+| 13     | team23_bundle4_de_1 | 0.751 | 0.817       | 0.694    |
+| 14     | team31_bundle2_de_2 | 0.726 | 0.689       | 0.768    |
+| 15     | team33_bundle2_de_1 | 0.719 | 0.73        | 0.708    |
+| 16     | team31_bundle2_de_1 | 0.697 | 0.618       | 0.8      |
+| 17     | team28_bundle4_de_3 | 0.648 | 0.8         | 0.544    |
+| 18     | team40_bundle4_de_1 | 0.545 | 0.833       | 0.405    |
+| 19     | team23_bundle4_de_3 | 0.302 | 0.24        | 0.408    |
+
+### NERC coarse German strict (metonymic sense) \[`NE-COARSE-METO-micro-strict`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_de_2 | 0.634 | 0.571       | 0.712    |
+| 2      | team10_bundle1_de_1 | 0.632 | 0.568       | 0.712    |
+| 3      | team10_bundle1_de_3 | 0.632 | 0.568       | 0.712    |
+| 4      | team1_bundle3_de_3  | 0.61  | 0.696       | 0.542    |
+| 5      | team8_bundle4_de_1  | 0.596 | 0.738       | 0.5      |
+| 6      | team8_bundle4_de_2  | 0.596 | 0.738       | 0.5      |
+| 7      | team8_bundle4_de_3  | 0.596 | 0.738       | 0.5      |
+| 8      | team1_bundle3_de_1  | 0.571 | 0.718       | 0.475    |
+| 9      | team1_bundle3_de_2  | 0.571 | 0.718       | 0.475    |
+| 10     | team33_bundle2_de_1 | 0.003 | 0.002       | 0.017    |
+
+### NERC coarse German fuzzy (metonymic sense) \[`NE-COARSE-METO-micro-fuzzy`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_de_2 | 0.694 | 0.626       | 0.78     |
+| 2      | team10_bundle1_de_1 | 0.684 | 0.615       | 0.771    |
+| 3      | team10_bundle1_de_3 | 0.684 | 0.615       | 0.771    |
+| 4      | team8_bundle4_de_1  | 0.636 | 0.787       | 0.534    |
+| 5      | team8_bundle4_de_2  | 0.636 | 0.787       | 0.534    |
+| 6      | team8_bundle4_de_3  | 0.636 | 0.787       | 0.534    |
+| 7      | team1_bundle3_de_3  | 0.619 | 0.707       | 0.551    |
+| 8      | team1_bundle3_de_1  | 0.571 | 0.718       | 0.475    |
+| 9      | team1_bundle3_de_2  | 0.571 | 0.718       | 0.475    |
+| 10     | team33_bundle2_de_1 | 0.005 | 0.003       | 0.025    |
+
+### NERC coarse English strict (literal sense) \[`NE-COARSE-LIT-micro-strict`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_en_1 | 0.632 | 0.623       | 0.641    |
+| 2      | team10_bundle1_en_3 | 0.626 | 0.617       | 0.635    |
+| 3      | team10_bundle1_en_2 | 0.625 | 0.621       | 0.63     |
+| 4      | team37_bundle4_en_1 | 0.524 | 0.461       | 0.606    |
+| 5      | team31_bundle2_en_1 | 0.473 | 0.443       | 0.508    |
+| 6      | team23_bundle4_en_1 | 0.463 | 0.522       | 0.416    |
+| 7      | team23_bundle4_en_2 | 0.441 | 0.45        | 0.432    |
+| 8      | team33_bundle2_en_1 | 0.327 | 0.347       | 0.31     |
+| 9      | team1_bundle3_en_1  | 0.318 | 0.249       | 0.439    |
+| 10     | team1_bundle3_en_2  | 0.313 | 0.257       | 0.401    |
+| 11     | team40_bundle4_en_1 | 0.117 | 0.476       | 0.067    |
+| 12     | team23_bundle4_en_3 | 0.077 | 0.054       | 0.134    |
+
+### NERC coarse English fuzzy (literal sense) \[`NE-COARSE-LIT-micro-fuzzy`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_en_3 | 0.806 | 0.794       | 0.817    |
+| 2      | team10_bundle1_en_1 | 0.786 | 0.775       | 0.797    |
+| 3      | team10_bundle1_en_2 | 0.78  | 0.774       | 0.786    |
+| 4      | team31_bundle2_en_1 | 0.678 | 0.635       | 0.728    |
+| 5      | team23_bundle4_en_1 | 0.659 | 0.743       | 0.592    |
+| 6      | team37_bundle4_en_1 | 0.645 | 0.568       | 0.746    |
+| 7      | team23_bundle4_en_2 | 0.634 | 0.647       | 0.621    |
+| 8      | team33_bundle2_en_1 | 0.605 | 0.642       | 0.572    |
+| 9      | team1_bundle3_en_2  | 0.494 | 0.405       | 0.633    |
+| 10     | team1_bundle3_en_1  | 0.479 | 0.375       | 0.661    |
+| 11     | team40_bundle4_en_1 | 0.215 | 0.873       | 0.122    |
+| 12     | team23_bundle4_en_3 | 0.168 | 0.118       | 0.292    |
+
+### NERC coarse English strict (metonymic sense) \[`NE-COARSE-METO-micro-strict`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_en_3 | 0.143 | 0.667       | 0.08     |
+| 2      | team10_bundle1_en_2 | 0.121 | 0.25        | 0.08     |
+| 3      | team33_bundle2_en_1 | 0.009 | 0.005       | 0.08     |
+
+### NERC coarse English fuzzy (metonymic sense) \[`NE-COARSE-METO-micro-fuzzy`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_en_3 | 0.214 | 1           | 0.12     |
+| 2      | team10_bundle1_en_2 | 0.182 | 0.375       | 0.12     |
+| 3      | team33_bundle2_en_1 | 0.024 | 0.013       | 0.2      |
+
+### NERC coarse French strict (literal sense) \[`NE-COARSE-LIT-micro-strict`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_fr_2 | 0.84  | 0.831       | 0.849    |
+| 2      | team10_bundle1_fr_1 | 0.831 | 0.823       | 0.839    |
+| 3      | team10_bundle1_fr_3 | 0.831 | 0.823       | 0.839    |
+| 4      | team39_bundle4_fr_2 | 0.814 | 0.799       | 0.829    |
+| 5      | team39_bundle4_fr_3 | 0.807 | 0.798       | 0.818    |
+| 6      | team39_bundle4_fr_1 | 0.801 | 0.791       | 0.811    |
+| 7      | team28_bundle4_fr_2 | 0.795 | 0.788       | 0.802    |
+| 8      | team28_bundle4_fr_1 | 0.786 | 0.778       | 0.794    |
+| 9      | team1_bundle3_fr_2  | 0.778 | 0.793       | 0.764    |
+| 10     | team1_bundle3_fr_3  | 0.767 | 0.776       | 0.757    |
+| 11     | team1_bundle3_fr_1  | 0.757 | 0.754       | 0.761    |
+| 12     | team23_bundle4_fr_2 | 0.689 | 0.693       | 0.686    |
+| 13     | team31_bundle2_fr_2 | 0.686 | 0.656       | 0.719    |
+| 14     | team23_bundle4_fr_1 | 0.684 | 0.715       | 0.656    |
+| 15     | team7_bundle2_fr_2  | 0.668 | 0.705       | 0.634    |
+| 16     | team7_bundle2_fr_3  | 0.668 | 0.705       | 0.634    |
+| 17     | team7_bundle2_fr_1  | 0.652 | 0.697       | 0.612    |
+| 18     | team37_bundle4_fr_1 | 0.638 | 0.605       | 0.675    |
+| 19     | team28_bundle4_fr_3 | 0.635 | 0.702       | 0.579    |
+| 20     | team11_bundle4_fr_1 | 0.627 | 0.66        | 0.598    |
+| 21     | team33_bundle2_fr_1 | 0.502 | 0.53        | 0.477    |
+| 22     | team40_bundle4_fr_1 | 0.347 | 0.731       | 0.228    |
+| 23     | team23_bundle4_fr_3 | 0.336 | 0.268       | 0.449    |
+| 24     | team16_bundle1_fr_1 | 0.316 | 0.435       | 0.248    |
+
+### NERC coarse French fuzzy (literal sense) \[`NE-COARSE-LIT-micro-fuzzy`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_fr_2 | 0.921 | 0.912       | 0.931    |
+| 2      | team10_bundle1_fr_1 | 0.917 | 0.909       | 0.926    |
+| 3      | team10_bundle1_fr_3 | 0.917 | 0.909       | 0.926    |
+| 4      | team39_bundle4_fr_3 | 0.898 | 0.887       | 0.909    |
+| 5      | team39_bundle4_fr_1 | 0.897 | 0.886       | 0.908    |
+| 6      | team39_bundle4_fr_2 | 0.896 | 0.88        | 0.913    |
+| 7      | team28_bundle4_fr_2 | 0.894 | 0.886       | 0.902    |
+| 8      | team28_bundle4_fr_1 | 0.888 | 0.879       | 0.897    |
+| 9      | team1_bundle3_fr_2  | 0.877 | 0.893       | 0.861    |
+| 10     | team1_bundle3_fr_3  | 0.865 | 0.875       | 0.854    |
+| 11     | team1_bundle3_fr_1  | 0.862 | 0.859       | 0.866    |
+| 12     | team31_bundle2_fr_2 | 0.83  | 0.794       | 0.869    |
+| 13     | team23_bundle4_fr_2 | 0.821 | 0.825       | 0.817    |
+| 14     | team23_bundle4_fr_1 | 0.819 | 0.856       | 0.785    |
+| 15     | team37_bundle4_fr_1 | 0.796 | 0.755       | 0.842    |
+| 16     | team7_bundle2_fr_2  | 0.784 | 0.828       | 0.744    |
+| 17     | team7_bundle2_fr_3  | 0.784 | 0.828       | 0.744    |
+| 18     | team7_bundle2_fr_1  | 0.769 | 0.823       | 0.722    |
+| 19     | team28_bundle4_fr_3 | 0.763 | 0.844       | 0.697    |
+| 20     | team11_bundle4_fr_1 | 0.756 | 0.796       | 0.72     |
+| 21     | team33_bundle2_fr_1 | 0.725 | 0.765       | 0.689    |
+| 22     | team16_bundle1_fr_1 | 0.439 | 0.604       | 0.344    |
+| 23     | team40_bundle4_fr_1 | 0.416 | 0.876       | 0.273    |
+| 24     | team23_bundle4_fr_3 | 0.414 | 0.331       | 0.554    |
+
+### NERC coarse French strict (metonymic sense) \[`NE-COARSE-METO-micro-strict`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_fr_1 | 0.783 | 0.734       | 0.839    |
+| 2      | team10_bundle1_fr_3 | 0.783 | 0.734       | 0.839    |
+| 3      | team39_bundle4_fr_3 | 0.667 | 0.647       | 0.688    |
+| 4      | team10_bundle1_fr_2 | 0.655 | 0.658       | 0.652    |
+| 5      | team39_bundle4_fr_2 | 0.627 | 0.696       | 0.571    |
+| 6      | team1_bundle3_fr_1  | 0.617 | 0.697       | 0.554    |
+| 7      | team1_bundle3_fr_2  | 0.617 | 0.697       | 0.554    |
+| 8      | team39_bundle4_fr_1 | 0.603 | 0.69        | 0.536    |
+| 9      | team1_bundle3_fr_3  | 0.551 | 0.643       | 0.482    |
+| 10     | team11_bundle4_fr_1 | 0.422 | 0.423       | 0.42     |
+| 11     | team33_bundle2_fr_1 | 0.004 | 0.002       | 0.027    |
+
+### NERC coarse French fuzzy (metonymic sense) \[`NE-COARSE-METO-micro-fuzzy`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_fr_1 | 0.783 | 0.734       | 0.839    |
+| 2      | team10_bundle1_fr_3 | 0.783 | 0.734       | 0.839    |
+| 3      | team39_bundle4_fr_3 | 0.675 | 0.655       | 0.696    |
+| 4      | team10_bundle1_fr_2 | 0.673 | 0.676       | 0.67     |
+| 5      | team39_bundle4_fr_2 | 0.637 | 0.707       | 0.58     |
+| 6      | team1_bundle3_fr_1  | 0.627 | 0.708       | 0.562    |
+| 7      | team1_bundle3_fr_2  | 0.627 | 0.708       | 0.562    |
+| 8      | team39_bundle4_fr_1 | 0.603 | 0.69        | 0.536    |
+| 9      | team1_bundle3_fr_3  | 0.582 | 0.679       | 0.509    |
+| 10     | team11_bundle4_fr_1 | 0.466 | 0.468       | 0.464    |
+| 11     | team33_bundle2_fr_1 | 0.005 | 0.003       | 0.036    |
+
+## NERC fine
+
+Relevant bundles: 1, 3
+
+### NERC fine German strict (literal sense) \[`NE-FINE-LIT-micro-strict`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_de_1 | 0.668 | 0.628       | 0.712    |
+| 2      | team10_bundle1_de_3 | 0.668 | 0.628       | 0.712    |
+| 3      | team10_bundle1_de_2 | 0.661 | 0.629       | 0.697    |
+| 4      | team1_bundle3_de_2  | 0.62  | 0.65        | 0.592    |
+| 5      | team1_bundle3_de_1  | 0.593 | 0.617       | 0.571    |
+| 6      | team1_bundle3_de_3  | 0.57  | 0.583       | 0.558    |
+
+### NERC fine German fuzzy (literal sense) \[`NE-FINE-LIT-micro-fuzzy`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_de_2 | 0.771 | 0.734       | 0.813    |
+| 2      | team10_bundle1_de_1 | 0.761 | 0.716       | 0.812    |
+| 3      | team10_bundle1_de_3 | 0.761 | 0.716       | 0.812    |
+| 4      | team1_bundle3_de_2  | 0.719 | 0.754       | 0.687    |
+| 5      | team1_bundle3_de_1  | 0.689 | 0.717       | 0.663    |
+| 6      | team1_bundle3_de_3  | 0.685 | 0.701       | 0.67     |
+
+### NERC fine German strict (metonymic sense) \[`NE-FINE-METO-micro-strict`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_de_2 | 0.648 | 0.601       | 0.703    |
+| 2      | team10_bundle1_de_1 | 0.636 | 0.58        | 0.703    |
+| 3      | team10_bundle1_de_3 | 0.636 | 0.58        | 0.703    |
+| 4      | team1_bundle3_de_3  | 0.619 | 0.707       | 0.551    |
+| 5      | team1_bundle3_de_1  | 0.571 | 0.718       | 0.475    |
+| 6      | team1_bundle3_de_2  | 0.571 | 0.718       | 0.475    |
+
+### NERC fine German fuzzy (metonymic sense) \[`NE-FINE-METO-micro-fuzzy`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_de_2 | 0.711 | 0.659       | 0.771    |
+| 2      | team10_bundle1_de_1 | 0.682 | 0.622       | 0.754    |
+| 3      | team10_bundle1_de_3 | 0.682 | 0.622       | 0.754    |
+| 4      | team1_bundle3_de_3  | 0.629 | 0.717       | 0.559    |
+| 5      | team1_bundle3_de_1  | 0.571 | 0.718       | 0.475    |
+| 6      | team1_bundle3_de_2  | 0.571 | 0.718       | 0.475    |
+
+### NERC fine French strict (literal sense) \[`NE-FINE-LIT-micro-strict`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_fr_2 | 0.784 | 0.772       | 0.797    |
+| 2      | team10_bundle1_fr_1 | 0.769 | 0.755       | 0.784    |
+| 3      | team10_bundle1_fr_3 | 0.769 | 0.755       | 0.784    |
+| 4      | team1_bundle3_fr_2  | 0.71  | 0.696       | 0.724    |
+| 5      | team1_bundle3_fr_1  | 0.705 | 0.714       | 0.696    |
+| 6      | team1_bundle3_fr_3  | 0.696 | 0.708       | 0.684    |
+| 7      | team16_bundle1_fr_1 | 0.303 | 0.418       | 0.238    |
+
+### NERC fine French fuzzy (literal sense) \[`NE-FINE-LIT-micro-fuzzy`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_fr_2 | 0.856 | 0.843       | 0.869    |
+| 2      | team10_bundle1_fr_1 | 0.846 | 0.83        | 0.863    |
+| 3      | team10_bundle1_fr_3 | 0.846 | 0.83        | 0.863    |
+| 4      | team1_bundle3_fr_2  | 0.791 | 0.776       | 0.807    |
+| 5      | team1_bundle3_fr_1  | 0.789 | 0.799       | 0.779    |
+| 6      | team1_bundle3_fr_3  | 0.787 | 0.801       | 0.773    |
+| 7      | team16_bundle1_fr_1 | 0.412 | 0.568       | 0.324    |
+
+### NERC fine French strict (metonymic sense) \[`NE-FINE-METO-micro-strict`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_fr_1 | 0.688 | 0.718       | 0.661    |
+| 2      | team10_bundle1_fr_3 | 0.688 | 0.718       | 0.661    |
+| 3      | team10_bundle1_fr_2 | 0.647 | 0.618       | 0.679    |
+| 4      | team1_bundle3_fr_1  | 0.605 | 0.667       | 0.554    |
+| 5      | team1_bundle3_fr_2  | 0.605 | 0.667       | 0.554    |
+| 6      | team1_bundle3_fr_3  | 0.497 | 0.677       | 0.393    |
+
+### NERC fine French fuzzy (metonymic sense) \[`NE-FINE-METO-micro-fuzzy`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_fr_1 | 0.707 | 0.738       | 0.679    |
+| 2      | team10_bundle1_fr_3 | 0.707 | 0.738       | 0.679    |
+| 3      | team10_bundle1_fr_2 | 0.655 | 0.626       | 0.688    |
+| 4      | team1_bundle3_fr_1  | 0.605 | 0.667       | 0.554    |
+| 5      | team1_bundle3_fr_2  | 0.605 | 0.667       | 0.554    |
+| 6      | team1_bundle3_fr_3  | 0.497 | 0.677       | 0.393    |
+
+## EL
+
+Relevant bundles: 1, 2
+
+### EL German strict @1 (literal sense) \[`NEL-LIT-micro-fuzzy-best@1`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_de_2 | 0.534 | 0.531       | 0.538    |
+| 2      | team10_bundle1_de_1 | 0.518 | 0.508       | 0.529    |
+| 3      | team10_bundle1_de_3 | 0.515 | 0.502       | 0.528    |
+| 4      | team33_bundle2_de_1 | 0.389 | 0.54        | 0.304    |
+| 5      | team31_bundle2_de_1 | 0.258 | 0.245       | 0.272    |
+| 6      | team31_bundle2_de_2 | 0.254 | 0.241       | 0.269    |
+
+### EL German strict @1 (metonymic sense) \[`NEL-METO-micro-fuzzy-best@1`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_de_1 | 0.396 | 0.324       | 0.508    |
+| 2      | team10_bundle1_de_2 | 0.396 | 0.324       | 0.508    |
+| 3      | team10_bundle1_de_3 | 0.383 | 0.308       | 0.508    |
+
+### EL German relaxed @1 (literal sense) \[`NEL-LIT-micro-fuzzy-best@2`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_de_2 | 0.554 | 0.548       | 0.561    |
+| 2      | team10_bundle1_de_1 | 0.539 | 0.526       | 0.552    |
+| 3      | team10_bundle1_de_3 | 0.535 | 0.52        | 0.55     |
+| 4      | team33_bundle2_de_1 | 0.403 | 0.561       | 0.315    |
+| 5      | team31_bundle2_de_1 | 0.268 | 0.255       | 0.283    |
+| 6      | team31_bundle2_de_2 | 0.261 | 0.245       | 0.28     |
+
+### EL German relaxed @1 (metonymic sense) \[`NEL-METO-micro-fuzzy-best@2`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team33_bundle2_de_1 | 0.509 | 0.538       | 0.483    |
+| 2      | team10_bundle1_de_2 | 0.179 | 0.103       | 0.712    |
+| 3      | team10_bundle1_de_1 | 0.177 | 0.101       | 0.72     |
+| 4      | team10_bundle1_de_3 | 0.176 | 0.1         | 0.72     |
+| 5      | team31_bundle2_de_1 | 0.056 | 0.033       | 0.212    |
+| 6      | team31_bundle2_de_2 | 0.054 | 0.031       | 0.212    |
+
+### EL English strict @1 (literal sense) \[`NEL-LIT-micro-fuzzy-best@1`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_en_3 | 0.531 | 0.523       | 0.539    |
+| 2      | team10_bundle1_en_1 | 0.523 | 0.514       | 0.533    |
+| 3      | team10_bundle1_en_2 | 0.501 | 0.496       | 0.506    |
+| 4      | team31_bundle2_en_1 | 0.3   | 0.249       | 0.375    |
+| 5      | team33_bundle2_en_1 | 0.141 | 0.257       | 0.097    |
+
+### EL English strict @1 (metonymic sense) \[`NEL-METO-micro-fuzzy-best@1`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_en_1 | 0.185 | 0.172       | 0.2      |
+| 2      | team10_bundle1_en_2 | 0.049 | 0.062       | 0.04     |
+| 3      | team10_bundle1_en_3 | 0.048 | 0.059       | 0.04     |
+
+### EL English relaxed @1 (literal sense) \[`NEL-LIT-micro-fuzzy-best@2`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_en_3 | 0.532 | 0.523       | 0.542    |
+| 2      | team10_bundle1_en_1 | 0.52  | 0.507       | 0.533    |
+| 3      | team10_bundle1_en_2 | 0.502 | 0.496       | 0.508    |
+| 4      | team31_bundle2_en_1 | 0.301 | 0.25        | 0.378    |
+| 5      | team33_bundle2_en_1 | 0.141 | 0.257       | 0.097    |
+
+### EL English relaxed @1 (metonymic sense) \[`NEL-METO-micro-fuzzy-best@2`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team33_bundle2_en_1 | 0.188 | 0.429       | 0.12     |
+| 2      | team10_bundle1_en_3 | 0.092 | 0.05        | 0.56     |
+| 3      | team10_bundle1_en_2 | 0.083 | 0.045       | 0.52     |
+| 4      | team10_bundle1_en_1 | 0.08  | 0.043       | 0.48     |
+| 5      | team31_bundle2_en_1 | 0.04  | 0.022       | 0.24     |
+
+### EL French strict @1 (literal sense) \[`NEL-LIT-micro-fuzzy-best@1`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_fr_3 | 0.598 | 0.594       | 0.602    |
+| 2      | team10_bundle1_fr_1 | 0.597 | 0.592       | 0.601    |
+| 3      | team10_bundle1_fr_2 | 0.597 | 0.592       | 0.602    |
+| 4      | team7_bundle2_fr_2  | 0.421 | 0.446       | 0.399    |
+| 5      | team7_bundle2_fr_1  | 0.419 | 0.45        | 0.393    |
+| 6      | team7_bundle2_fr_3  | 0.413 | 0.437       | 0.391    |
+| 7      | team33_bundle2_fr_1 | 0.407 | 0.594       | 0.31     |
+| 8      | team31_bundle2_fr_2 | 0.251 | 0.352       | 0.195    |
+| 9      | team16_bundle1_fr_1 | 0.108 | 0.15        | 0.084    |
+
+### EL French strict @1 (metonymic sense) \[`NEL-METO-micro-fuzzy-best@1`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_fr_1 | 0.297 | 0.236       | 0.402    |
+| 2      | team10_bundle1_fr_3 | 0.297 | 0.236       | 0.402    |
+| 3      | team10_bundle1_fr_2 | 0.265 | 0.217       | 0.339    |
+| 4      | team7_bundle2_fr_3  | 0.043 | 0.023       | 0.295    |
+| 5      | team7_bundle2_fr_2  | 0.041 | 0.022       | 0.286    |
+| 6      | team7_bundle2_fr_1  | 0.037 | 0.02        | 0.25     |
+
+### EL French relaxed @1 (literal sense) \[`NEL-LIT-micro-fuzzy-best@2`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team10_bundle1_fr_1 | 0.596 | 0.59        | 0.601    |
+| 2      | team10_bundle1_fr_3 | 0.596 | 0.591       | 0.602    |
+| 3      | team10_bundle1_fr_2 | 0.594 | 0.588       | 0.601    |
+| 4      | team7_bundle2_fr_2  | 0.424 | 0.449       | 0.402    |
+| 5      | team7_bundle2_fr_1  | 0.423 | 0.453       | 0.396    |
+| 6      | team7_bundle2_fr_3  | 0.417 | 0.441       | 0.395    |
+| 7      | team33_bundle2_fr_1 | 0.406 | 0.593       | 0.309    |
+| 8      | team31_bundle2_fr_2 | 0.251 | 0.348       | 0.196    |
+| 9      | team16_bundle1_fr_1 | 0.111 | 0.153       | 0.087    |
+
+### EL French relaxed @1 (metonymic sense) \[`NEL-METO-micro-fuzzy-best@2`\]
+
+| Rank   | System              | F1    | Precision   | Recall   |
+|:-------|:--------------------|:------|:------------|:---------|
+| 1      | team33_bundle2_fr_1 | 0.403 | 0.388       | 0.42     |
+| 2      | team10_bundle1_fr_1 | 0.115 | 0.064       | 0.562    |
+| 3      | team10_bundle1_fr_3 | 0.115 | 0.064       | 0.562    |
+| 4      | team10_bundle1_fr_2 | 0.114 | 0.063       | 0.562    |
+| 5      | team7_bundle2_fr_3  | 0.066 | 0.036       | 0.455    |
+| 6      | team7_bundle2_fr_2  | 0.065 | 0.035       | 0.446    |
+| 7      | team7_bundle2_fr_1  | 0.061 | 0.033       | 0.411    |
+| 8      | team31_bundle2_fr_2 | 0.041 | 0.024       | 0.125    |

@@ -1,0 +1,25 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+team10_bundle1_en_1	NE-COARSE-LIT-micro-strict	ALL	0.623	0.641	0.632				288	174	161
+team10_bundle1_en_3	NE-COARSE-LIT-micro-strict	ALL	0.617	0.635	0.626				285	177	164
+team10_bundle1_en_2	NE-COARSE-LIT-micro-strict	ALL	0.621	0.63	0.625				283	173	166
+team37_bundle4_en_1	NE-COARSE-LIT-micro-strict	ALL	0.461	0.606	0.524				272	318	177
+team31_bundle2_en_1	NE-COARSE-LIT-micro-strict	ALL	0.443	0.508	0.473				228	287	221
+team23_bundle4_en_1	NE-COARSE-LIT-micro-strict	ALL	0.522	0.416	0.463				187	171	262
+team23_bundle4_en_2	NE-COARSE-LIT-micro-strict	ALL	0.45	0.432	0.441				194	237	255
+team33_bundle2_en_1	NE-COARSE-LIT-micro-strict	ALL	0.347	0.31	0.327				139	261	310
+team1_bundle3_en_1	NE-COARSE-LIT-micro-strict	ALL	0.249	0.439	0.318				197	594	252
+team1_bundle3_en_2	NE-COARSE-LIT-micro-strict	ALL	0.257	0.401	0.313				180	521	269
+team40_bundle4_en_1	NE-COARSE-LIT-micro-strict	ALL	0.476	0.067	0.117				30	33	419
+team23_bundle4_en_3	NE-COARSE-LIT-micro-strict	ALL	0.054	0.134	0.077				60	1047	389
+team10_bundle1_en_3	NE-COARSE-METO-micro-strict	ALL	0.667	0.08	0.143				2	1	23
+team10_bundle1_en_2	NE-COARSE-METO-micro-strict	ALL	0.25	0.08	0.121				2	6	23
+team33_bundle2_en_1	NE-COARSE-METO-micro-strict	ALL	0.005	0.08	0.009				2	398	23
+team10_bundle1_en_1	NE-COARSE-METO-micro-strict	ALL	0.0	0.0	0				0	18	25
+team1_bundle3_en_1	NE-COARSE-METO-micro-strict	ALL	0	0.0	0				0	0	25
+team1_bundle3_en_2	NE-COARSE-METO-micro-strict	ALL	0	0.0	0				0	0	25
+team23_bundle4_en_1	NE-COARSE-METO-micro-strict	ALL	0	0.0	0				0	0	25
+team23_bundle4_en_2	NE-COARSE-METO-micro-strict	ALL	0	0.0	0				0	0	25
+team23_bundle4_en_3	NE-COARSE-METO-micro-strict	ALL	0	0.0	0				0	0	25
+team31_bundle2_en_1	NE-COARSE-METO-micro-strict	ALL	0	0.0	0				0	0	25
+team37_bundle4_en_1	NE-COARSE-METO-micro-strict	ALL	0.0	0.0	0				0	3	25
+team40_bundle4_en_1	NE-COARSE-METO-micro-strict	ALL	0	0.0	0				0	0	25

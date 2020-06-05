@@ -1,0 +1,13 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+team10_bundle1_de_2	NEL-LIT-micro-fuzzy-best@1	ALL	0.531	0.538	0.534				615	544	528
+team10_bundle1_de_1	NEL-LIT-micro-fuzzy-best@1	ALL	0.508	0.529	0.518				605	586	538
+team10_bundle1_de_3	NEL-LIT-micro-fuzzy-best@1	ALL	0.502	0.528	0.515				603	598	540
+team33_bundle2_de_1	NEL-LIT-micro-fuzzy-best@1	ALL	0.54	0.304	0.389				347	295	796
+team31_bundle2_de_1	NEL-LIT-micro-fuzzy-best@1	ALL	0.245	0.272	0.258				311	957	832
+team31_bundle2_de_2	NEL-LIT-micro-fuzzy-best@1	ALL	0.241	0.269	0.254				307	968	836
+team10_bundle1_de_1	NEL-METO-micro-fuzzy-best@1	ALL	0.324	0.508	0.396				60	125	58
+team10_bundle1_de_2	NEL-METO-micro-fuzzy-best@1	ALL	0.324	0.508	0.396				60	125	58
+team10_bundle1_de_3	NEL-METO-micro-fuzzy-best@1	ALL	0.308	0.508	0.383				60	135	58
+team31_bundle2_de_1	NEL-METO-micro-fuzzy-best@1	ALL	0.0	0.0	0				0	44	118
+team31_bundle2_de_2	NEL-METO-micro-fuzzy-best@1	ALL	0.0	0.0	0				0	43	118
+team33_bundle2_de_1	NEL-METO-micro-fuzzy-best@1	ALL	0	0.0	0				0	0	118
