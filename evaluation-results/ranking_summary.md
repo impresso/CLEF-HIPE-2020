@@ -28,7 +28,6 @@ In terms of boundaries, NEL is only evaluated according to fuzzy boundary matchi
 
 <!--ts-->
    * [CLEF HIPE 2020 preliminary results](#clef-hipe-2020-preliminary-results)
-         * [About the evaluation (reminder)](#about-the-evaluation-reminder)
       * [NERC coarse](#nerc-coarse)
          * [NERC coarse German strict (literal sense) [NE-COARSE-LIT-micro-strict]](#nerc-coarse-german-strict-literal-sense-ne-coarse-lit-micro-strict)
          * [NERC coarse German fuzzy (literal sense) [NE-COARSE-LIT-micro-fuzzy]](#nerc-coarse-german-fuzzy-literal-sense-ne-coarse-lit-micro-fuzzy)
