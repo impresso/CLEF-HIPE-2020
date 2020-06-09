@@ -21,12 +21,73 @@ We provide an **overview table** of the anonymized results of the runs submitted
 
 - Evaluation scenarios for **EL**:
 In terms of boundaries, NEL is only evaluated according to fuzzy boundary matching in all scenarios. What is of interest is the capacity to provide the correct link rather than the correct boundaries (NERC task).
-         - **Strict**: The system's top link prediction (NIL or QID) must be identical with the gold standard annotation.
+        - **Strict**: The system's top link prediction (NIL or QID) must be identical with the gold standard annotation.
         - **Relaxed**: The set of system's predictions is expanded with a set of historically related entities QIDs, e.g "Germany" is expended with the more specific "Confederation of the Rhine" and both are considered as valid answers. Systems are therefore evaluated more generously.  For this scenario, we additionally report F@1/3/5 in the .tsv files.
 
 
 
 <!--ts-->
+   * [CLEF HIPE 2020 preliminary results](#clef-hipe-2020-preliminary-results)
+         * [About the evaluation (reminder)](#about-the-evaluation-reminder)
+      * [NERC coarse](#nerc-coarse)
+         * [NERC coarse German strict (literal sense) [NE-COARSE-LIT-micro-strict]](#nerc-coarse-german-strict-literal-sense-ne-coarse-lit-micro-strict)
+         * [NERC coarse German fuzzy (literal sense) [NE-COARSE-LIT-micro-fuzzy]](#nerc-coarse-german-fuzzy-literal-sense-ne-coarse-lit-micro-fuzzy)
+         * [NERC coarse German strict (metonymic sense) [NE-COARSE-METO-micro-strict]](#nerc-coarse-german-strict-metonymic-sense-ne-coarse-meto-micro-strict)
+         * [NERC coarse German fuzzy (metonymic sense) [NE-COARSE-METO-micro-fuzzy]](#nerc-coarse-german-fuzzy-metonymic-sense-ne-coarse-meto-micro-fuzzy)
+         * [NERC coarse English strict (literal sense) [NE-COARSE-LIT-micro-strict]](#nerc-coarse-english-strict-literal-sense-ne-coarse-lit-micro-strict)
+         * [NERC coarse English fuzzy (literal sense) [NE-COARSE-LIT-micro-fuzzy]](#nerc-coarse-english-fuzzy-literal-sense-ne-coarse-lit-micro-fuzzy)
+         * [NERC coarse English strict (metonymic sense) [NE-COARSE-METO-micro-strict]](#nerc-coarse-english-strict-metonymic-sense-ne-coarse-meto-micro-strict)
+         * [NERC coarse English fuzzy (metonymic sense) [NE-COARSE-METO-micro-fuzzy]](#nerc-coarse-english-fuzzy-metonymic-sense-ne-coarse-meto-micro-fuzzy)
+         * [NERC coarse French strict (literal sense) [NE-COARSE-LIT-micro-strict]](#nerc-coarse-french-strict-literal-sense-ne-coarse-lit-micro-strict)
+         * [NERC coarse French fuzzy (literal sense) [NE-COARSE-LIT-micro-fuzzy]](#nerc-coarse-french-fuzzy-literal-sense-ne-coarse-lit-micro-fuzzy)
+         * [NERC coarse French strict (metonymic sense) [NE-COARSE-METO-micro-strict]](#nerc-coarse-french-strict-metonymic-sense-ne-coarse-meto-micro-strict)
+         * [NERC coarse French fuzzy (metonymic sense) [NE-COARSE-METO-micro-fuzzy]](#nerc-coarse-french-fuzzy-metonymic-sense-ne-coarse-meto-micro-fuzzy)
+      * [NERC fine](#nerc-fine)
+         * [NERC fine German strict (literal sense) [NE-FINE-LIT-micro-strict]](#nerc-fine-german-strict-literal-sense-ne-fine-lit-micro-strict)
+         * [NERC fine German fuzzy (literal sense) [NE-FINE-LIT-micro-fuzzy]](#nerc-fine-german-fuzzy-literal-sense-ne-fine-lit-micro-fuzzy)
+         * [NERC fine German strict (metonymic sense) [NE-FINE-METO-micro-strict]](#nerc-fine-german-strict-metonymic-sense-ne-fine-meto-micro-strict)
+         * [NERC fine German fuzzy (metonymic sense) [NE-FINE-METO-micro-fuzzy]](#nerc-fine-german-fuzzy-metonymic-sense-ne-fine-meto-micro-fuzzy)
+         * [NERC fine German strict NE components [NE-FINE-COMP-micro-strict]](#nerc-fine-german-strict-ne-components-ne-fine-comp-micro-strict)
+         * [NERC fine German fuzzy NE components [NE-FINE-COMP-micro-fuzzy]](#nerc-fine-german-fuzzy-ne-components-ne-fine-comp-micro-fuzzy)
+         * [NERC fine German strict, nested entities [NE-NESTED-micro-strict]](#nerc-fine-german-strict-nested-entities-ne-nested-micro-strict)
+         * [NERC fine German fuzzy, nested entities [NE-NESTED-micro-fuzzy]](#nerc-fine-german-fuzzy-nested-entities-ne-nested-micro-fuzzy)
+         * [NERC fine French strict (literal sense) [NE-FINE-LIT-micro-strict]](#nerc-fine-french-strict-literal-sense-ne-fine-lit-micro-strict)
+         * [NERC fine French fuzzy (literal sense) [NE-FINE-LIT-micro-fuzzy]](#nerc-fine-french-fuzzy-literal-sense-ne-fine-lit-micro-fuzzy)
+         * [NERC fine French strict (metonymic sense) [NE-FINE-METO-micro-strict]](#nerc-fine-french-strict-metonymic-sense-ne-fine-meto-micro-strict)
+         * [NERC fine French fuzzy (metonymic sense) [NE-FINE-METO-micro-fuzzy]](#nerc-fine-french-fuzzy-metonymic-sense-ne-fine-meto-micro-fuzzy)
+         * [NERC fine French strict NE components [NE-FINE-COMP-micro-strict]](#nerc-fine-french-strict-ne-components-ne-fine-comp-micro-strict)
+         * [NERC fine French fuzzy NE components [NE-FINE-COMP-micro-fuzzy]](#nerc-fine-french-fuzzy-ne-components-ne-fine-comp-micro-fuzzy)
+         * [NERC fine French strict, nested entities [NE-NESTED-micro-strict]](#nerc-fine-french-strict-nested-entities-ne-nested-micro-strict)
+         * [NERC fine French fuzzy, nested entities [NE-NESTED-micro-fuzzy]](#nerc-fine-french-fuzzy-nested-entities-ne-nested-micro-fuzzy)
+      * [EL](#el)
+         * [EL German strict @1 (literal sense) [NEL-LIT-micro-fuzzy-@1]](#el-german-strict-1-literal-sense-nel-lit-micro-fuzzy-1)
+         * [EL German strict @1 (metonymic sense) [NEL-METO-micro-fuzzy-@1]](#el-german-strict-1-metonymic-sense-nel-meto-micro-fuzzy-1)
+         * [EL German relaxed @1 (literal sense) [NEL-LIT-micro-fuzzy-relaxed-@1]](#el-german-relaxed-1-literal-sense-nel-lit-micro-fuzzy-relaxed-1)
+         * [EL German relaxed @1 (metonymic sense) [NEL-METO-micro-fuzzy-relaxed-@1]](#el-german-relaxed-1-metonymic-sense-nel-meto-micro-fuzzy-relaxed-1)
+         * [EL English strict @1 (literal sense) [NEL-LIT-micro-fuzzy-@1]](#el-english-strict-1-literal-sense-nel-lit-micro-fuzzy-1)
+         * [EL English strict @1 (metonymic sense) [NEL-METO-micro-fuzzy-@1]](#el-english-strict-1-metonymic-sense-nel-meto-micro-fuzzy-1)
+         * [EL English relaxed @1 (literal sense) [NEL-LIT-micro-fuzzy-relaxed-@1]](#el-english-relaxed-1-literal-sense-nel-lit-micro-fuzzy-relaxed-1)
+         * [EL English relaxed @1 (metonymic sense) [NEL-METO-micro-fuzzy-relaxed-@1]](#el-english-relaxed-1-metonymic-sense-nel-meto-micro-fuzzy-relaxed-1)
+         * [EL French strict @1 (literal sense) [NEL-LIT-micro-fuzzy-@1]](#el-french-strict-1-literal-sense-nel-lit-micro-fuzzy-1)
+         * [EL French strict @1 (metonymic sense) [NEL-METO-micro-fuzzy-@1]](#el-french-strict-1-metonymic-sense-nel-meto-micro-fuzzy-1)
+         * [EL French relaxed @1 (literal sense) [NEL-LIT-micro-fuzzy-relaxed-@1]](#el-french-relaxed-1-literal-sense-nel-lit-micro-fuzzy-relaxed-1)
+         * [EL French relaxed @1 (metonymic sense) [NEL-METO-micro-fuzzy-relaxed-@1]](#el-french-relaxed-1-metonymic-sense-nel-meto-micro-fuzzy-relaxed-1)
+      * [EL only](#el-only)
+         * [EL only German strict @1 (literal sense) [NEL-LIT-micro-fuzzy-@1]](#el-only-german-strict-1-literal-sense-nel-lit-micro-fuzzy-1)
+         * [EL only German strict @1 (metonymic sense) [NEL-METO-micro-fuzzy-@1]](#el-only-german-strict-1-metonymic-sense-nel-meto-micro-fuzzy-1)
+         * [EL only German relaxed @1 (literal sense) [NEL-LIT-micro-fuzzy-relaxed-@1]](#el-only-german-relaxed-1-literal-sense-nel-lit-micro-fuzzy-relaxed-1)
+         * [EL only German relaxed @1 (metonymic sense) [NEL-METO-micro-fuzzy-relaxed-@1]](#el-only-german-relaxed-1-metonymic-sense-nel-meto-micro-fuzzy-relaxed-1)
+         * [EL only English strict @1 (literal sense) [NEL-LIT-micro-fuzzy-@1]](#el-only-english-strict-1-literal-sense-nel-lit-micro-fuzzy-1)
+         * [EL only English strict @1 (metonymic sense) [NEL-METO-micro-fuzzy-@1]](#el-only-english-strict-1-metonymic-sense-nel-meto-micro-fuzzy-1)
+         * [EL only English relaxed @1 (literal sense) [NEL-LIT-micro-fuzzy-relaxed-@1]](#el-only-english-relaxed-1-literal-sense-nel-lit-micro-fuzzy-relaxed-1)
+         * [EL only English relaxed @1 (metonymic sense) [NEL-METO-micro-fuzzy-relaxed-@1]](#el-only-english-relaxed-1-metonymic-sense-nel-meto-micro-fuzzy-relaxed-1)
+         * [EL only French strict @1 (literal sense) [NEL-LIT-micro-fuzzy-@1]](#el-only-french-strict-1-literal-sense-nel-lit-micro-fuzzy-1)
+         * [EL only French strict @1 (metonymic sense) [NEL-METO-micro-fuzzy-@1]](#el-only-french-strict-1-metonymic-sense-nel-meto-micro-fuzzy-1)
+         * [EL only French relaxed @1 (literal sense) [NEL-LIT-micro-fuzzy-relaxed-@1]](#el-only-french-relaxed-1-literal-sense-nel-lit-micro-fuzzy-relaxed-1)
+         * [EL only French relaxed @1 (metonymic sense) [NEL-METO-micro-fuzzy-relaxed-@1]](#el-only-french-relaxed-1-metonymic-sense-nel-meto-micro-fuzzy-relaxed-1)
+
+<!-- Added by: romanell, at: Tue Jun  9 18:18:54 CEST 2020 -->
+
 <!--te-->
 
 
