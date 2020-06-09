@@ -17,3 +17,9 @@ team10_bundle1_de_3	NE-FINE-METO-micro-strict	ALL	0.58	0.703	0.636				83	60	35
 team1_bundle3_de_3	NE-FINE-METO-micro-strict	ALL	0.707	0.551	0.619				65	27	53
 team1_bundle3_de_1	NE-FINE-METO-micro-strict	ALL	0.718	0.475	0.571				56	22	62
 team1_bundle3_de_2	NE-FINE-METO-micro-strict	ALL	0.718	0.475	0.571				56	22	62
+team10_bundle1_de_1	NE-NESTED-micro-strict	ALL	0.471	0.562	0.513				41	46	32
+team10_bundle1_de_3	NE-NESTED-micro-strict	ALL	0.471	0.562	0.513				41	46	32
+team10_bundle1_de_2	NE-NESTED-micro-strict	ALL	0.49	0.342	0.403				25	26	48
+team1_bundle3_de_1	NE-NESTED-micro-strict	ALL	0.0	0.0	0				0	2	73
+team1_bundle3_de_2	NE-NESTED-micro-strict	ALL	0.0	0.0	0				0	2	73
+team1_bundle3_de_3	NE-NESTED-micro-strict	ALL	0	0.0	0				0	0	73

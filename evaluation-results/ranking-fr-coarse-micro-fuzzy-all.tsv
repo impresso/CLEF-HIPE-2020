@@ -16,6 +16,7 @@ team23_bundle4_fr_1	NE-COARSE-LIT-micro-fuzzy	ALL	0.856	0.785	0.819				1256	212	
 team37_bundle4_fr_1	NE-COARSE-LIT-micro-fuzzy	ALL	0.755	0.842	0.796				1347	438	253
 team7_bundle2_fr_2	NE-COARSE-LIT-micro-fuzzy	ALL	0.828	0.744	0.784				1191	248	409
 team7_bundle2_fr_3	NE-COARSE-LIT-micro-fuzzy	ALL	0.828	0.744	0.784				1191	248	409
+baseline_bundle4_fr_1	NE-COARSE-LIT-micro-fuzzy	ALL	0.825	0.721	0.769				1153	245	447
 team7_bundle2_fr_1	NE-COARSE-LIT-micro-fuzzy	ALL	0.823	0.722	0.769				1155	249	445
 team28_bundle4_fr_3	NE-COARSE-LIT-micro-fuzzy	ALL	0.844	0.697	0.763				1115	206	485
 team11_bundle4_fr_1	NE-COARSE-LIT-micro-fuzzy	ALL	0.796	0.72	0.756				1152	296	448
@@ -33,6 +34,7 @@ team1_bundle3_fr_2	NE-COARSE-METO-micro-fuzzy	ALL	0.708	0.562	0.627				63	26	49
 team39_bundle4_fr_1	NE-COARSE-METO-micro-fuzzy	ALL	0.69	0.536	0.603				60	27	52
 team1_bundle3_fr_3	NE-COARSE-METO-micro-fuzzy	ALL	0.679	0.509	0.582				57	27	55
 team11_bundle4_fr_1	NE-COARSE-METO-micro-fuzzy	ALL	0.468	0.464	0.466				52	59	60
+baseline_bundle4_fr_1	NE-COARSE-METO-micro-fuzzy	ALL	0.541	0.179	0.268				20	17	92
 team33_bundle2_fr_1	NE-COARSE-METO-micro-fuzzy	ALL	0.003	0.036	0.005				4	1437	108
 team16_bundle1_fr_1	NE-COARSE-METO-micro-fuzzy	ALL	0	0.0	0				0	0	112
 team23_bundle4_fr_1	NE-COARSE-METO-micro-fuzzy	ALL	0	0.0	0				0	0	112

@@ -15,6 +15,7 @@ team23_bundle4_de_2	NE-COARSE-LIT-micro-strict	ALL	0.638	0.6	0.618				688	390	45
 team31_bundle2_de_2	NE-COARSE-LIT-micro-strict	ALL	0.499	0.556	0.526				638	641	509
 team28_bundle4_de_3	NE-COARSE-LIT-micro-strict	ALL	0.644	0.438	0.521				502	278	645
 team33_bundle2_de_1	NE-COARSE-LIT-micro-strict	ALL	0.499	0.484	0.491				555	557	592
+baseline_bundle4_de_1	NE-COARSE-LIT-micro-strict	ALL	0.643	0.378	0.476				433	240	714
 team31_bundle2_de_1	NE-COARSE-LIT-micro-strict	ALL	0.406	0.527	0.459				604	882	543
 team40_bundle4_de_1	NE-COARSE-LIT-micro-strict	ALL	0.695	0.337	0.454				387	170	760
 team23_bundle4_de_3	NE-COARSE-LIT-micro-strict	ALL	0.178	0.302	0.224				346	1602	801
@@ -27,6 +28,7 @@ team8_bundle4_de_2	NE-COARSE-METO-micro-strict	ALL	0.738	0.5	0.596				59	21	59
 team8_bundle4_de_3	NE-COARSE-METO-micro-strict	ALL	0.738	0.5	0.596				59	21	59
 team1_bundle3_de_1	NE-COARSE-METO-micro-strict	ALL	0.718	0.475	0.571				56	22	62
 team1_bundle3_de_2	NE-COARSE-METO-micro-strict	ALL	0.718	0.475	0.571				56	22	62
+baseline_bundle4_de_1	NE-COARSE-METO-micro-strict	ALL	0.814	0.297	0.435				35	8	83
 team33_bundle2_de_1	NE-COARSE-METO-micro-strict	ALL	0.002	0.017	0.003				2	1110	116
 team23_bundle4_de_1	NE-COARSE-METO-micro-strict	ALL	0	0.0	0				0	0	118
 team23_bundle4_de_2	NE-COARSE-METO-micro-strict	ALL	0	0.0	0				0	0	118

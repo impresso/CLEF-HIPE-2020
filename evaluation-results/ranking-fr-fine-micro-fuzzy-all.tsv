@@ -20,3 +20,10 @@ team1_bundle3_fr_1	NE-FINE-METO-micro-fuzzy	ALL	0.667	0.554	0.605				62	31	50
 team1_bundle3_fr_2	NE-FINE-METO-micro-fuzzy	ALL	0.667	0.554	0.605				62	31	50
 team1_bundle3_fr_3	NE-FINE-METO-micro-fuzzy	ALL	0.677	0.393	0.497				44	21	68
 team16_bundle1_fr_1	NE-FINE-METO-micro-fuzzy	ALL	0	0.0	0				0	0	112
+team10_bundle1_fr_1	NE-NESTED-micro-fuzzy	ALL	0.357	0.427	0.389				35	63	47
+team10_bundle1_fr_2	NE-NESTED-micro-fuzzy	ALL	0.366	0.415	0.389				34	59	48
+team10_bundle1_fr_3	NE-NESTED-micro-fuzzy	ALL	0.357	0.427	0.389				35	63	47
+team1_bundle3_fr_1	NE-NESTED-micro-fuzzy	ALL	0.448	0.317	0.371				26	32	56
+team1_bundle3_fr_2	NE-NESTED-micro-fuzzy	ALL	0.448	0.317	0.371				26	32	56
+team1_bundle3_fr_3	NE-NESTED-micro-fuzzy	ALL	0.365	0.232	0.284				19	33	63
+team16_bundle1_fr_1	NE-NESTED-micro-fuzzy	ALL	0	0.0	0				0	0	82
