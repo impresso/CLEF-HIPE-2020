@@ -4,3 +4,4 @@
 This repository contains:
 - files for the [website](https://impresso.github.io/CLEF-HIPE-2020/)
 - [data](https://github.com/impresso/CLEF-HIPE-2020/tree/master/data) repository with the released datasets
+- publication of 13 participating teams' [results](https://github.com/impresso/CLEF-HIPE-2020/blob/master/evaluation-results/ranking_summary_final.md)
