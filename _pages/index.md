@@ -9,16 +9,6 @@ order: 0
 
 ![alt](images/pages/project-schema.jpg)
 
-**-------** 
-
-### >> Update Covid-19 <<
-
-In order to address the challenges posed by Covid-19, CLEF 2020 organizers decided to adapt the schedule of the Evaluation Labs. The evaluation period is postponed by ca. a month, as well as paper submission. The final conference will happen online at the same date. Check the new [HIPE calendar](/CLEF-HIPE-2020/dates) and the CLEF [home page](https://clef2020.clef-initiative.eu/).
-
-**-------** 
-
-
-
 HIPE (Identifying Historical People, Places and other Entities) is a **named entity processing evaluation campaign** on **historical newspapers** in **French**, **German** and **English**, organized in the context of the [_impresso_](http://impresso-project.ch) project and run as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab.
 
 ### Key information
@@ -26,6 +16,10 @@ HIPE (Identifying Historical People, Places and other Entities) is a **named ent
 *(also visit various pages via the 'hamburger' menu on the top right)*
 
 **Tasks:** Named Entity Recognition and Classification and Named Entity Linking.
+
+**Results** (update 12.06.2020): Now published! Learn more about the results of the 13 teams who participated and submitted more than 70 runs [here](https://github.com/impresso/CLEF-HIPE-2020/blob/master/evaluation-results/ranking_summary_final.md). Approaches will be described in working note papers presented in Sept at the CLEF conference (online) and published via the CEUR-WS platform.
+
+**Covid19**: Check the new [HIPE calendar](/CLEF-HIPE-2020/dates) and the CLEF [home page](https://clef2020.clef-initiative.eu/). The final conference will happen online at the same date. 
 
 **Registration:** [http://clef2020-labs-registration.dei.unipd.it/]( http://clef2020-labs-registration.dei.unipd.it/) until 26 April 2020.
 
