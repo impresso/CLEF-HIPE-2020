@@ -24,7 +24,7 @@ order: 40
 - **17 July 2020:**  Submission of CEUR-WS participant papers  (was 24.05).
 - **17 July – 14 August 2020**: Review process of participant papers.
 - **14 August 2020:** Notification of acceptance of participant papers.
-- **21 August 2020:** Submission of CEUR-WS camera ready participant papers (was 29.06).
+- **~~21~~ 28 August 2020:** Submission of CEUR-WS camera ready participant papers (was 29.06).
 - **22-25 Sept 2020**: [CLEF 2020](https://clef2020.clef-initiative.eu/) Online Conference. 
 
 
