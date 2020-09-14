@@ -17,7 +17,7 @@ HIPE (Identifying Historical People, Places and other Entities) is a **evaluatio
 
 **Tasks:** Named Entity Recognition and Classification and Named Entity Linking.
 
-**Workshop** (update 14.09.2020): information on registration and schedule on this [page](/CLEF-HIPE-2020/Online-Worshop).
+**Workshop** (update 14.09.2020): information on registration and schedule on this [page](/CLEF-HIPE-2020/Online-Workshop).
 
 **Results** (update 12.06.2020): Now published! Learn more about the results of the 13 teams who participated and submitted more than 70 runs [here](https://github.com/impresso/CLEF-HIPE-2020/blob/master/evaluation-results/ranking_summary_final.md). Approaches will be described in working note papers presented in Sept at the CLEF conference (online) and published via the CEUR-WS platform.
 
