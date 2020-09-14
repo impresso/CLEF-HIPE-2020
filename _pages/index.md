@@ -9,17 +9,19 @@ order: 0
 
 ![alt](images/pages/project-schema.jpg)
 
-HIPE (Identifying Historical People, Places and other Entities) is a **named entity processing evaluation campaign** on **historical newspapers** in **French**, **German** and **English**, organized in the context of the [_impresso_](http://impresso-project.ch) project and run as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab.
+HIPE (Identifying Historical People, Places and other Entities) is a **evaluation campaign on named entity processing** on **historical newspapers** in **French**, **German** and **English**, organized in the context of the [_impresso_](http://impresso-project.ch) project and run as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab.
 
 ### Key information
 
-*(also visit various pages via the 'hamburger' menu on the top right)*
+*(also visit the 'hamburger' menu on the top right)*
 
 **Tasks:** Named Entity Recognition and Classification and Named Entity Linking.
 
+**Workshop** (update 14.09.2020): information on registration and schedule on this [page](/CLEF-HIPE-2020/Online-Worshop).
+
 **Results** (update 12.06.2020): Now published! Learn more about the results of the 13 teams who participated and submitted more than 70 runs [here](https://github.com/impresso/CLEF-HIPE-2020/blob/master/evaluation-results/ranking_summary_final.md). Approaches will be described in working note papers presented in Sept at the CLEF conference (online) and published via the CEUR-WS platform.
 
-**Covid19**: Check the new [HIPE calendar](/CLEF-HIPE-2020/dates) and the CLEF [home page](https://clef2020.clef-initiative.eu/). The final conference will happen online at the same date. 
+**Covid-19**: Check the new [HIPE calendar](/CLEF-HIPE-2020/dates) and the CLEF [home page](https://clef2020.clef-initiative.eu/). Final conference will be online. 
 
 **Registration:** [http://clef2020-labs-registration.dei.unipd.it/]( http://clef2020-labs-registration.dei.unipd.it/) until 26 April 2020.
 
