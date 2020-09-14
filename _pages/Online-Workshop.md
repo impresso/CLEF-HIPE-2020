@@ -30,7 +30,7 @@ order: 50
 
 
 
-**15h00-16h30: SESSION 1 - NERC**
+**15h00-16h30: SESSION 1 - NERC**  (Chair: tba) 
 
 - **15:00-15:15** - *Triple E-Effective ensembling of embeddings and language models for NER of historical German*. 
   Stefan Schweter and Luisa März.
@@ -47,7 +47,7 @@ order: 50
 
 
 
-**14h00-15h30: SESSION 2 -  EL**  (Chair: XX) 
+**14h00-15h30: SESSION 2 -  EL**  (Chair: tba) 
 
 - **17:00-17:15** - *IRISA System for Entity Detection and Linking at HIPE'20.* 
   Cheikh Brahim El Vaigh, Guillaume Le Noé-Bienvenu, Guillaume Gravier and Pascale Sébillot .   
