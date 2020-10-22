@@ -9,7 +9,7 @@ order: 0
 
 ![alt](images/pages/project-schema.jpg)
 
-HIPE (Identifying Historical People, Places and other Entities) is a **evaluation campaign on named entity processing** on **historical newspapers** in **French**, **German** and **English**, organized in the context of the [_impresso_](http://impresso-project.ch) project and run as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab.
+HIPE (Identifying Historical People, Places and other Entities) is a **evaluation campaign on named entity processing** on **historical newspapers** in **French**, **German** and **English**, which was organized in the context of the [_impresso_](http://impresso-project.ch) project and run as a [CLEF 2020](https://clef2020.clef-initiative.eu/) Evaluation Lab.
 
 ### Key information
 
@@ -17,17 +17,33 @@ HIPE (Identifying Historical People, Places and other Entities) is a **evaluatio
 
 **Tasks:** Named Entity Recognition and Classification and Named Entity Linking.
 
-**Workshop** (update 14.09.2020): information on registration and schedule on this [page](/CLEF-HIPE-2020/Online-Workshop).
 
-**Results** (update 12.06.2020): Now published! Learn more about the results of the 13 teams who participated and submitted more than 70 runs [here](https://github.com/impresso/CLEF-HIPE-2020/blob/master/evaluation-results/ranking_summary_final.md). Approaches will be described in working note papers presented in Sept at the CLEF conference (online) and published via the CEUR-WS platform.
 
-**Covid-19**: Check the new [HIPE calendar](/CLEF-HIPE-2020/dates) and the CLEF [home page](https://clef2020.clef-initiative.eu/). Final conference will be online. 
+**HIPE Final Workshop** (Sept 2020):
 
-**Registration:** [http://clef2020-labs-registration.dei.unipd.it/]( http://clef2020-labs-registration.dei.unipd.it/) until 26 April 2020.
+- **Proceedings**: http://ceur-ws.org/Vol-2696/ 
 
-**Data**: in this [github repository](https://github.com/impresso/CLEF-HIPE-2020/tree/master/data).
+- **Presentation videos**: [tinyurl.com/y2maq8pb](https://t.co/FhjZe1kyjY?amp=1) 
+
+- **Schedule**: [here](/CLEF-HIPE-2020/Online-Workshop)
+
+  
+
+**Results** 
+
+- Learn more about the results of the 13 teams who participated and submitted more than 70 runs [here](https://github.com/impresso/CLEF-HIPE-2020/blob/master/evaluation-results/ranking_summary_final.md). 
+
+- **Task overview paper**: CEUR Working Note Extended [overview](http://ceur-ws.org/Vol-2696/paper_255.pdf), Springer LNCS Condensed [overview](https://link.springer.com/chapter/10.1007/978-3-030-58219-7_21).
+
+  
+
+**Data**: in this [github repository](https://github.com/impresso/CLEF-HIPE-2020/tree/master/data) (zenodo record under finalization)
+
+
 
 **Participation:** the [participation guidelines](https://zenodo.org/record/3677171) (**v1.1**) offer a detailed description of the tasks and provide instructions relative to participation.
+
+
 
 **Evaluation**
 
