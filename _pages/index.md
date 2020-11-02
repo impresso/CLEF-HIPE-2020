@@ -21,9 +21,9 @@ HIPE (Identifying Historical People, Places and other Entities) is a **evaluatio
 
 **HIPE Final Workshop** (Sept 2020):
 
-- **Proceedings**: http://ceur-ws.org/Vol-2696/ 
+- **Proceedings**: [http://ceur-ws.org/Vol-2696/](http://ceur-ws.org/Vol-2696/)
 
-- **Presentation videos**: [tinyurl.com/y2maq8pb](https://t.co/FhjZe1kyjY?amp=1) 
+- **Presentation videos**: [tinyurl.com/y2maq8pb](https://t.co/FhjZe1kyjY?amp=1)  
 
 - **Schedule**: [here](/CLEF-HIPE-2020/Online-Workshop)
 
