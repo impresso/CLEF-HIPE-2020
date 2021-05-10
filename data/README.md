@@ -22,12 +22,46 @@ The HIPE datasets are licensed under a <a rel="license" href="http://creativecom
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a> 
 
 
-
 ### How to cite
 
-A shared task overview paper describing the tasks, the data and the main results will be published in CLEF labs Proceedings by [CEUR Workshop](http://ceur-ws.org/) and Springer LNCS by September 2020.
+If you use this data, please consider citing the CLEF-HIPE-2020 overview papers:
 
-Results of participating teams will appear in the working notes proceedings, published by [CEUR Workshop](http://ceur-ws.org/), and be presented in the CLEF conference in Sept 2020. 
+
+CEUR Extended overview: [https://infoscience.epfl.ch/record/281054](https://infoscience.epfl.ch/record/281054)
+
+```
+@inproceedings{ehrmann_extended_2020,
+  title = {Extended {Overview} of {CLEF HIPE} 2020: {Named Entity Processing} on {Historical Newspapers}},
+  booktitle = {{CLEF 2020 Working Notes}. {Working Notes} of {CLEF} 2020 - {Conference} and {Labs} of the {Evaluation Forum}},
+  author = {Ehrmann, Maud and Romanello, Matteo and Fl{\"u}ckiger, Alex and Clematide, Simon},
+  editor = {Cappellato, Linda and Eickhoff, Carsten and Ferro, Nicola and N{\'e}v{\'e}ol, Aur{\'e}lie},
+  year = {2020},
+  volume = {2696},
+  pages = {38},
+  publisher = {{CEUR-WS}},
+  address = {{Thessaloniki, Greece}},
+  doi = {10.5281/zenodo.4117566},
+  url = {https://infoscience.epfl.ch/record/281054},
+}
+```
+
+or Springer LNCS overview: [https://link.springer.com/chapter/10.1007/978-3-030-58219-7_21](https://link.springer.com/chapter/10.1007/978-3-030-58219-7_21)
+
+```
+@InProceedings{10.1007/978-3-030-58219-7_21,
+author="Ehrmann, Maud and Romanello, Matteo and Fl{\"u}ckiger, Alex and Clematide, Simon",
+editor="Arampatzis, Avi and Kanoulas, Evangelos and Tsikrika, Theodora and Vrochidis, Stefanos and Joho, Hideo and Lioma, Christina and Eickhoff, Carsten and N{\'e}v{\'e}ol, Aur{\'e}lie and Cappellato, Linda and Ferro, Nicola",
+title="Overview of CLEF HIPE 2020: Named Entity Recognition and Linking on Historical Newspapers",
+booktitle="Experimental IR Meets Multilinguality, Multimodality, and Interaction",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="288--310",
+isbn="978-3-030-58219-7"
+}
+
+```
+Results of participating teams appear in the working notes proceedings, published by [CEUR Workshop](http://ceur-ws.org/), and were presented in the CLEF conference in Sept 2020 (see [youtube](https://www.youtube.com/playlist?list=PLB45F159nVx-3bee7G_1jdTfUAtsLD0FU) playlist). 
 
 
 
