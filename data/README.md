@@ -26,8 +26,7 @@ The HIPE datasets are licensed under a <a rel="license" href="http://creativecom
 
 If you use this data, please consider citing the CLEF-HIPE-2020 overview papers:
 
-
-CEUR Extended overview: [https://infoscience.epfl.ch/record/281054](https://infoscience.epfl.ch/record/281054)
+"Extended Overview of CLEF HIPE 2020: Named Entity Processing on Historical Newspapers": [https://infoscience.epfl.ch/record/281054](https://infoscience.epfl.ch/record/281054)
 
 ```
 @inproceedings{ehrmann_extended_2020,
