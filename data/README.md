@@ -1,8 +1,9 @@
 # HIPE Shared Task Data
 
-This folder contains the data releases relative to the [CLEF-HIPE shared task](https://impresso.github.io/CLEF-HIPE-2020/) on NERC and EL on historical newspapers. Please note that these datasets are not yet in their final versions but will evolve until end of spring 2020 approximately.
+This folder contains the data releases relative to the [CLEF-HIPE shared task](https://impresso.github.io/CLEF-HIPE-2020/) on NERC and EL on historical newspapers.     
+A second edition of the shared task is organised in 2022: see the [HIPE-2022](https://hipe-eval.github.io/HIPE-2022/) website and [data repository](https://github.com/hipe-eval/HIPE-2022-data/blob/main/README.md).
 
-- **v1.4** (released 11.02.2022): post-evaluation release with sentence splitting (all splits).
+- **v1.4** (released 11.02.2022): post-evaluation release with sentence splitting (all splits). [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6046853.svg)](https://doi.org/10.5281/zenodo.6046853)
 - **test-masked-v1.3** (released 03.06.2020): masked test dataset for evaluation of system runs for task bundle 5.
 - **test-masked-v1.2** (released 25.05.2020): masked test dataset for evaluation of system runs for task bundles 1-4.
 - **training-v1.2**  (released 12.10.2020): fourth version of training and dev datasets for HIP. Main changes are: additional data for French and German.
@@ -22,9 +23,11 @@ The HIPE datasets are licensed under a <a rel="license" href="http://creativecom
 
 ### How to cite
 
-If you use this data, please consider citing the CLEF-HIPE-2020 overview papers:
+If you use this data, please consider citing 
 
-"Extended Overview of CLEF HIPE 2020: Named Entity Processing on Historical Newspapers": [https://infoscience.epfl.ch/record/281054](https://infoscience.epfl.ch/record/281054)
+- the extended overview paper:
+
+M. Ehrmann, M. Romanello, A. Flückiger, and S. Clematide, [Extended Overview of CLEF HIPE 2020: Named Entity Processing on Historical Newspapers](https://infoscience.epfl.ch/record/281054) in Working Notes of CLEF 2020 - Conference and Labs of the Evaluation Forum, Thessaloniki, Greece, 2020, vol. 2696, p. 38. doi: 10.5281/zenodo.4117566.
 
 ```
 @inproceedings{ehrmann_extended_2020,
@@ -42,7 +45,9 @@ If you use this data, please consider citing the CLEF-HIPE-2020 overview papers:
 }
 ```
 
-or Springer LNCS overview: [https://link.springer.com/chapter/10.1007/978-3-030-58219-7_21](https://link.springer.com/chapter/10.1007/978-3-030-58219-7_21)
+- the Springer LNCS overview: 
+
+M. Ehrmann, M. Romanello, A. Flückiger, and S. Clematide, [Overview of CLEF HIPE 2020: Named Entity Recognition and Linking on Historical Newspapers](https://infoscience.epfl.ch/record/280047?ln=en)  In: Arampatzis et al. Experimental IR Meets Multilinguality, Multimodality, and Interaction. CLEF 2020. Lecture Notes in Computer Science(), vol 12260. Springer, Cham. doi: [https://doi.org/10.1007/978-3-030-58219-7_21](https://link.springer.com/chapter/10.1007/978-3-030-58219-7_21)
 
 ```
 @InProceedings{10.1007/978-3-030-58219-7_21,
@@ -58,7 +63,8 @@ isbn="978-3-030-58219-7"
 }
 
 ```
-Results of participating teams appear in the working notes proceedings, published by [CEUR Workshop](http://ceur-ws.org/), and were presented in the CLEF conference in Sept 2020 (see [youtube](https://www.youtube.com/playlist?list=PLB45F159nVx-3bee7G_1jdTfUAtsLD0FU) playlist). 
+
+Results of participating teams appear in the working notes proceedings, published by [CEUR Workshop](http://ceur-ws.org/), and were presented in the CLEF conference in Sept 2020 (see the [youtube](https://www.youtube.com/playlist?list=PLB45F159nVx-3bee7G_1jdTfUAtsLD0FU) playlist). 
 
 
 
